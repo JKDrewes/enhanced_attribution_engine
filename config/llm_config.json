@@ -1,0 +1,17 @@
+{
+  "models": {
+    "default": "gemma3:4b",
+    "sentiment": "gemma3:4b",
+    "intent": "llama2:latest"
+  },
+  "model_cli_modes": {
+    "bge-m3": "embeddings",
+    "llama2:latest": "run",
+    "gemma3:4b": "run",
+    "default": "run"
+  },
+  "fallback": {
+    "allow_local_fallback": true,
+    "fail_fast": false
+  }
+}

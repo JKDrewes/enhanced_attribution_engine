@@ -1,0 +1,1001 @@
+user_id,timestamp,source,text,rating
+user_0050,2025-06-15 00:00:00,email_feedback,"Email offers are great, I found a nice deal.",5
+user_0456,2025-08-11 11:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0231,2025-10-21 09:00:00,app_review,Customer service was rude and unhelpful.,
+user_0254,2025-05-14 23:00:00,email_feedback,The loyalty program is confusing.,5
+user_0155,2025-10-15 11:00:00,email_feedback,"My issue was solved quickly, thank you.",
+user_0387,2025-10-12 06:00:00,twitter,Customer service was rude and unhelpful.,
+user_0014,2025-07-31 19:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0187,2025-06-08 18:00:00,email_feedback,"Email offers are great, I found a nice deal.",1
+user_0130,2025-06-29 08:00:00,twitter,The app keeps crashing when I try to pay. 😡,
+user_0298,2025-07-07 02:00:00,email_feedback,"My issue was solved quickly, thank you.",
+user_0333,2025-09-03 10:00:00,chatbot,"Email offers are great, I found a nice deal.",
+user_0025,2025-09-22 08:00:00,app_review,"Still waiting for my refund, very frustrating.",1
+user_0350,2025-07-31 18:00:00,chatbot,I love how fast the checkout process is!,1
+user_0256,2025-10-08 14:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0140,2025-07-27 15:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0387,2025-06-02 09:00:00,email_feedback,I love how fast the checkout process is!,2
+user_0286,2025-06-21 04:00:00,twitter,I love how fast the checkout process is!,
+user_0174,2025-06-22 16:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0038,2025-08-24 18:00:00,app_review,"My issue was solved quickly, thank you.",3
+user_0305,2025-07-18 11:00:00,twitter,"Still waiting for my refund, very frustrating.",1
+user_0440,2025-05-02 11:00:00,chatbot,"Email offers are great, I found a nice deal.",1
+user_0267,2025-07-28 12:00:00,twitter,Socail media posts were engaging!,5
+user_0228,6/10/2025 16:0,twitter,Customer service was rude and unhelpful.,2
+user_0237,2025-09-15 15:00:00,app_review,"Email offers are great, I found a nice deal.",4
+user_0446,22/5/2025 4:0,chatbot,Socail media posts were engaging!,
+user_0107,2025-05-25 04:00:00,email_feedback,Customer service was rude and unhelpful.,5
+user_0304,2025-09-18 00:00:00,twitter,The loyalty program is confusing.,3
+user_0189,2025-09-18 15:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0281,2025-10-23 11:00:00,chatbot,The loyalty program is confusing.,3
+user_0016,2025-07-22 03:00:00,twitter,I love how fast the checkout process is!,1
+user_0438,2025-08-09 14:00:00,app_review,The app keeps crashing when I try to pay. 😡,5
+user_0243,2025-05-27 21:00:00,app_review,The app keeps crashing when I try to pay. 😡,2
+user_0218,2025-05-02 07:00:00,twitter,I love how fast the checkout process is!,3
+user_0435,2025-07-09 01:00:00,email_feedback,"My issue was solved quickly, thank you.",5
+user_0286,2025-10-09 06:00:00,email_feedback,The loyalty program is confusing.,
+user_0158,2025-08-19 06:00:00,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0481,2025-09-30 08:00:00,chatbot,Socail media posts were engaging!,2
+user_0074,2025-10-28 21:00:00,chatbot,I love how fast the checkout process is!,4
+user_0057,2025-10-12 14:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,2
+user_0380,2025-10-08 05:00:00,twitter,"My issue was solved quickly, thank you.",
+user_0011,2025-06-26 21:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",
+user_0471,2025-08-31 23:00:00,email_feedback,I love how fast the checkout process is!,5
+user_0142,2025-09-11 05:00:00,email_feedback,"My issue was solved quickly, thank you.",1
+user_0034,2025-06-21 00:00:00,chatbot,"Still waiting for my refund, very frustrating.",2
+user_0137,2025-10-23 14:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",4
+user_0116,2025-06-05 15:00:00,email_feedback,"Email offers are great, I found a nice deal.",5
+user_0327,2025-05-17 14:00:00,app_review,The app keeps crashing when I try to pay. 😡,1
+user_0162,2025-07-31 06:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",1
+user_0078,2025-10-13 20:00:00,app_review,"Ad was misleading, the discount didn’t apply.",4
+user_0344,2025-10-10 06:00:00,app_review,The loyalty program is confusing.,4
+user_0010,2025-08-31 02:00:00,chatbot,Socail media posts were engaging!,
+user_0278,2025-09-13 15:00:00,app_review,"My issue was solved quickly, thank you.",2
+user_0431,2025-06-10 02:00:00,twitter,"My issue was solved quickly, thank you.",4
+user_0178,2025-06-23 13:00:00,chatbot,Socail media posts were engaging!,
+user_0492,2025-09-08 08:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0453,2025-06-14 03:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0067,2025-10-18 20:00:00,app_review,"Email offers are great, I found a nice deal.",
+user_0055,2025-08-29 17:00:00,twitter,"Email offers are great, I found a nice deal.",5
+user_0064,2025-08-31 06:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0049,2025-10-02 13:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0243,2025-09-15 02:00:00,email_feedback,"Still waiting for my refund, very frustrating.",3
+user_0233,2025-10-03 12:00:00,twitter,The loyalty program is confusing.,5
+user_0442,2025-05-16 07:00:00,chatbot,Customer service was rude and unhelpful.,4
+user_0396,2025-09-19 02:00:00,email_feedback,Customer service was rude and unhelpful.,4
+user_0397,2025-05-24 02:00:00,email_feedback,I love how fast the checkout process is!,1
+user_0096,2025-09-25 08:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0062,2025-08-24 06:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0332,2025-09-02 14:00:00,twitter,"Still waiting for my refund, very frustrating.",1
+user_0108,2025-07-30 20:00:00,chatbot,"Still waiting for my refund, very frustrating.",3
+user_0216,2025-07-13 06:00:00,app_review,"My issue was solved quickly, thank you.",
+user_0371,22/7/2025 22:0,app_review,"Still waiting for my refund, very frustrating.",3
+user_0140,2025-08-28 10:00:00,chatbot,I love how fast the checkout process is!,4
+user_0282,5/9/2025 15:0,email_feedback,"Email offers are great, I found a nice deal.",4
+user_0393,1/9/2025 21:0,chatbot,The loyalty program is confusing.,
+user_0415,2025-06-17 00:00:00,app_review,The loyalty program is confusing.,5
+user_0077,2025-06-23 03:00:00,email_feedback,"Still waiting for my refund, very frustrating.",1
+user_0156,6/9/2025 18:0,email_feedback,"Email offers are great, I found a nice deal.",4
+user_0455,2025-10-09 23:00:00,app_review,Customer service was rude and unhelpful.,3
+user_0108,2025-05-12 22:00:00,app_review,Socail media posts were engaging!,2
+user_0136,2025-10-22 19:00:00,app_review,The loyalty program is confusing.,
+user_0190,2025-05-24 12:00:00,twitter,Customer service was rude and unhelpful.,
+user_0043,2025-07-13 04:00:00,app_review,The loyalty program is confusing.,4
+user_0306,2025-06-29 17:00:00,app_review,"Ad was misleading, the discount didn’t apply.",
+user_0350,2025-09-10 17:00:00,email_feedback,"Email offers are great, I found a nice deal.",1
+user_0322,2025-08-25 21:00:00,chatbot,The app keeps crashing when I try to pay. 😡,1
+user_0261,2025-08-21 14:00:00,twitter,The loyalty program is confusing.,5
+user_0299,2025-10-23 09:00:00,twitter,The loyalty program is confusing.,
+user_0443,2025-05-16 20:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",5
+user_0423,26/9/2025 17:0,chatbot,Socail media posts were engaging!,
+user_0490,2025-07-12 09:00:00,twitter,The app keeps crashing when I try to pay. 😡,3
+user_0057,2025-10-20 14:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",3
+user_0006,2025-07-16 21:00:00,email_feedback,I love how fast the checkout process is!,
+user_0256,2025-08-18 09:00:00,twitter,I love how fast the checkout process is!,
+user_0176,2025-09-26 15:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",
+user_0302,2025-06-16 21:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0074,2025-08-07 17:00:00,chatbot,The loyalty program is confusing.,3
+user_0426,2025-08-20 22:00:00,twitter,Customer service was rude and unhelpful.,2
+user_0196,2025-08-18 23:00:00,app_review,"Email offers are great, I found a nice deal.",1
+user_0199,2025-06-24 00:00:00,twitter,I love how fast the checkout process is!,
+user_0185,2025-09-18 14:00:00,email_feedback,"Still waiting for my refund, very frustrating.",1
+user_0232,2025-06-05 04:00:00,app_review,"Email offers are great, I found a nice deal.",2
+user_0263,2025-10-27 15:00:00,app_review,I love how fast the checkout process is!,
+user_0102,2025-05-14 21:00:00,chatbot,The app keeps crashing when I try to pay. 😡,3
+user_0413,2025-07-04 21:00:00,twitter,Socail media posts were engaging!,
+user_0350,2025-05-19 03:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",3
+user_0197,8/7/2025 15:0,twitter,The loyalty program is confusing.,5
+user_0242,2025-07-30 08:00:00,app_review,"Still waiting for my refund, very frustrating.",2
+user_0007,2025-09-04 19:00:00,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0418,2025-06-03 10:00:00,twitter,The loyalty program is confusing.,1
+user_0089,2025-06-23 17:00:00,chatbot,"My issue was solved quickly, thank you.",1
+user_0379,2025-05-04 14:00:00,email_feedback,"Email offers are great, I found a nice deal.",5
+user_0309,2025-08-11 10:00:00,chatbot,"Still waiting for my refund, very frustrating.",1
+user_0433,2025-06-05 04:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",
+user_0351,2025-08-07 04:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0068,2025-10-15 02:00:00,email_feedback,"Email offers are great, I found a nice deal.",3
+user_0169,2025-05-24 16:00:00,email_feedback,Socail media posts were engaging!,5
+user_0093,10/6/2025 4:0,twitter,The app keeps crashing when I try to pay. 😡,5
+user_0009,2025-09-15 09:00:00,twitter,"Still waiting for my refund, very frustrating.",3
+user_0142,2025-07-04 00:00:00,email_feedback,"Still waiting for my refund, very frustrating.",5
+user_0352,2025-07-24 07:00:00,email_feedback,Socail media posts were engaging!,4
+user_0449,2025-09-16 20:00:00,email_feedback,Customer service was rude and unhelpful.,2
+user_0339,2025-07-14 13:00:00,chatbot,"Still waiting for my refund, very frustrating.",3
+user_0232,2025-09-06 00:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,3
+user_0482,2025-10-22 08:00:00,app_review,"Email offers are great, I found a nice deal.",
+user_0426,2025-10-27 06:00:00,email_feedback,"My issue was solved quickly, thank you.",5
+user_0258,2025-10-21 11:00:00,twitter,The app keeps crashing when I try to pay. 😡,1
+user_0076,2025-09-12 15:00:00,email_feedback,"Email offers are great, I found a nice deal.",2
+user_0374,2025-06-02 04:00:00,twitter,"Email offers are great, I found a nice deal.",5
+user_0165,2025-10-23 22:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0240,2025-10-18 22:00:00,twitter,"Ad was misleading, the discount didn’t apply.",
+user_0301,16/10/2025 18:0,app_review,Customer service was rude and unhelpful.,3
+user_0294,2025-07-21 00:00:00,email_feedback,Customer service was rude and unhelpful.,2
+user_0231,2025-05-04 05:00:00,chatbot,"Still waiting for my refund, very frustrating.",2
+user_0227,2025-07-19 19:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,2
+user_0148,2025-08-31 01:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0410,2025-08-03 13:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,2
+user_0234,2025-07-15 09:00:00,twitter,"My issue was solved quickly, thank you.",
+user_0013,2025-07-08 01:00:00,twitter,"My issue was solved quickly, thank you.",5
+user_0491,2025-10-18 05:00:00,twitter,The app keeps crashing when I try to pay. 😡,3
+user_0017,2025-07-10 16:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,5
+user_0306,2025-07-12 23:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0475,2025-09-10 17:00:00,twitter,The app keeps crashing when I try to pay. 😡,
+user_0339,2025-06-12 11:00:00,twitter,Socail media posts were engaging!,3
+user_0261,2025-06-01 08:00:00,app_review,The app keeps crashing when I try to pay. 😡,4
+user_0456,2025-08-04 15:00:00,chatbot,Customer service was rude and unhelpful.,3
+user_0085,2025-07-12 05:00:00,chatbot,"Email offers are great, I found a nice deal.",
+user_0407,2025-06-09 19:00:00,twitter,"Email offers are great, I found a nice deal.",4
+user_0064,2025-08-07 00:00:00,app_review,"Ad was misleading, the discount didn’t apply.",2
+user_0154,2025-08-25 03:00:00,app_review,I love how fast the checkout process is!,5
+user_0235,2025-05-18 19:00:00,chatbot,"Email offers are great, I found a nice deal.",5
+user_0418,2025-10-15 11:00:00,twitter,I love how fast the checkout process is!,2
+user_0266,2025-08-11 06:00:00,app_review,The app keeps crashing when I try to pay. 😡,5
+user_0412,2025-09-19 16:00:00,email_feedback,Socail media posts were engaging!,5
+user_0125,2025-10-15 08:00:00,twitter,I love how fast the checkout process is!,1
+user_0465,2025-10-06 19:00:00,chatbot,The app keeps crashing when I try to pay. 😡,5
+user_0259,2025-06-01 09:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",1
+user_0139,2025-05-02 09:00:00,app_review,"Ad was misleading, the discount didn’t apply.",4
+user_0374,2025-09-07 15:00:00,email_feedback,"My issue was solved quickly, thank you.",3
+user_0085,2025-09-28 01:00:00,chatbot,Customer service was rude and unhelpful.,
+user_0011,2025-05-13 02:00:00,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0061,2025-07-17 16:00:00,twitter,"Still waiting for my refund, very frustrating.",5
+user_0242,2025-09-13 23:00:00,chatbot,The loyalty program is confusing.,1
+user_0445,2025-10-12 20:00:00,twitter,"Email offers are great, I found a nice deal.",3
+user_0404,2025-07-19 18:00:00,chatbot,"Email offers are great, I found a nice deal.",3
+user_0162,2025-10-08 17:00:00,chatbot,I love how fast the checkout process is!,
+user_0495,2025-08-13 04:00:00,email_feedback,"Email offers are great, I found a nice deal.",1
+user_0215,2025-06-10 17:00:00,chatbot,The loyalty program is confusing.,5
+user_0422,2025-09-17 21:00:00,chatbot,"Email offers are great, I found a nice deal.",4
+user_0000,2025-10-26 18:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",1
+user_0165,2025-10-19 13:00:00,chatbot,I love how fast the checkout process is!,2
+user_0183,2025-07-18 10:00:00,twitter,Socail media posts were engaging!,
+user_0091,2025-10-01 21:00:00,email_feedback,Customer service was rude and unhelpful.,
+user_0338,2025-07-18 07:00:00,chatbot,"My issue was solved quickly, thank you.",4
+user_0321,2025-10-03 08:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,
+user_0159,2025-09-28 01:00:00,app_review,"My issue was solved quickly, thank you.",3
+user_0440,2025-08-09 02:00:00,app_review,Socail media posts were engaging!,
+user_0223,27/10/2025 7:0,app_review,"Still waiting for my refund, very frustrating.",
+user_0191,2025-07-06 09:00:00,app_review,Socail media posts were engaging!,1
+user_0069,16/5/2025 19:0,twitter,"My issue was solved quickly, thank you.",
+user_0109,2025-08-11 01:00:00,email_feedback,Socail media posts were engaging!,2
+user_0278,2025-08-13 15:00:00,chatbot,Customer service was rude and unhelpful.,
+user_0018,2025-08-05 02:00:00,chatbot,The loyalty program is confusing.,
+user_0113,2025-07-31 09:00:00,twitter,"My issue was solved quickly, thank you.",2
+user_0060,2025-10-25 21:00:00,email_feedback,"Still waiting for my refund, very frustrating.",1
+user_0411,2025-07-04 10:00:00,twitter,The loyalty program is confusing.,4
+user_0396,2025-08-24 15:00:00,email_feedback,The loyalty program is confusing.,
+user_0202,2025-09-07 22:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0433,2025-10-27 05:00:00,email_feedback,Customer service was rude and unhelpful.,5
+user_0434,2025-06-27 20:00:00,app_review,Socail media posts were engaging!,5
+user_0144,2025-05-25 01:00:00,chatbot,"My issue was solved quickly, thank you.",1
+user_0436,2025-10-11 15:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,2
+user_0258,2025-06-06 04:00:00,chatbot,Customer service was rude and unhelpful.,3
+user_0213,2025-07-10 06:00:00,chatbot,"Still waiting for my refund, very frustrating.",
+user_0298,2025-09-16 17:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0105,2025-07-11 23:00:00,app_review,"Email offers are great, I found a nice deal.",
+user_0098,2025-07-31 10:00:00,chatbot,The app keeps crashing when I try to pay. 😡,5
+user_0249,2025-10-27 11:00:00,app_review,The loyalty program is confusing.,5
+user_0317,2025-08-13 12:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",
+user_0067,2025-06-28 04:00:00,twitter,The app keeps crashing when I try to pay. 😡,2
+user_0200,2025-05-11 10:00:00,app_review,The loyalty program is confusing.,4
+user_0007,2025-08-16 12:00:00,twitter,"Email offers are great, I found a nice deal.",4
+user_0279,2025-08-25 10:00:00,twitter,The app keeps crashing when I try to pay. 😡,5
+,2025-08-09 15:00:00,email_feedback,"My issue was solved quickly, thank you.",3
+user_0473,2025-07-07 08:00:00,twitter,I love how fast the checkout process is!,5
+user_0348,2025-07-14 09:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",4
+,2025-06-20 00:00:00,twitter,"Email offers are great, I found a nice deal.",4
+user_0010,2025-10-16 20:00:00,chatbot,The loyalty program is confusing.,
+user_0066,2025-10-22 23:00:00,app_review,The loyalty program is confusing.,5
+user_0183,2025-06-20 22:00:00,email_feedback,I love how fast the checkout process is!,
+user_0160,2025-05-01 02:00:00,twitter,The loyalty program is confusing.,
+user_0046,2025-06-29 19:00:00,chatbot,"My issue was solved quickly, thank you.",5
+user_0122,2025-05-10 13:00:00,chatbot,Customer service was rude and unhelpful.,3
+user_0312,2025-05-01 17:00:00,twitter,I love how fast the checkout process is!,1
+user_0220,2025-05-06 02:00:00,app_review,I love how fast the checkout process is!,3
+user_0152,2025-09-28 18:00:00,twitter,Customer service was rude and unhelpful.,1
+user_0116,2025-07-04 23:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0261,2025-09-09 17:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",3
+user_0155,2025-07-30 10:00:00,twitter,"Ad was misleading, the discount didn’t apply.",3
+user_0236,2025-06-07 13:00:00,twitter,I love how fast the checkout process is!,
+user_0411,2025-10-22 17:00:00,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0158,13/8/2025 11:0,twitter,"Still waiting for my refund, very frustrating.",1
+user_0267,2025-05-21 19:00:00,app_review,"Email offers are great, I found a nice deal.",
+user_0173,2025-10-17 21:00:00,app_review,"My issue was solved quickly, thank you.",
+user_0203,2025-05-29 06:00:00,twitter,"Still waiting for my refund, very frustrating.",
+user_0118,2025-06-23 02:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",3
+user_0488,2025-07-15 02:00:00,app_review,"Still waiting for my refund, very frustrating.",3
+user_0083,2025-06-14 17:00:00,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0279,2025-05-29 00:00:00,chatbot,"Still waiting for my refund, very frustrating.",
+user_0204,2025-08-08 01:00:00,chatbot,I love how fast the checkout process is!,
+user_0100,2025-05-26 00:00:00,app_review,Customer service was rude and unhelpful.,
+user_0303,2025-05-18 19:00:00,app_review,I love how fast the checkout process is!,5
+user_0181,2025-05-04 20:00:00,email_feedback,I love how fast the checkout process is!,4
+user_0203,6/5/2025 20:0,email_feedback,Socail media posts were engaging!,
+user_0006,2025-10-28 01:00:00,chatbot,"Still waiting for my refund, very frustrating.",1
+user_0382,2025-07-01 02:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",4
+user_0445,2025-05-29 17:00:00,twitter,"Still waiting for my refund, very frustrating.",
+user_0356,2025-05-17 14:00:00,chatbot,"Still waiting for my refund, very frustrating.",5
+user_0404,2025-10-14 10:00:00,email_feedback,"Still waiting for my refund, very frustrating.",5
+user_0332,2025-06-26 15:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",2
+user_0009,2025-08-11 01:00:00,chatbot,Socail media posts were engaging!,
+user_0079,2025-05-28 04:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0463,2025-10-23 14:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",2
+user_0212,2025-06-02 10:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",3
+user_0424,2025-10-13 09:00:00,email_feedback,I love how fast the checkout process is!,4
+user_0100,2025-07-08 23:00:00,app_review,"Ad was misleading, the discount didn’t apply.",4
+user_0216,2025-08-16 07:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",3
+user_0262,2025-09-09 21:00:00,chatbot,Customer service was rude and unhelpful.,2
+user_0154,2025-09-23 13:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",4
+,2025-07-02 13:00:00,chatbot,I love how fast the checkout process is!,2
+user_0409,2025-09-26 08:00:00,chatbot,Customer service was rude and unhelpful.,5
+user_0487,2025-07-26 18:00:00,chatbot,Customer service was rude and unhelpful.,5
+user_0417,2025-05-13 18:00:00,email_feedback,Socail media posts were engaging!,3
+user_0234,2025-05-24 19:00:00,twitter,"Still waiting for my refund, very frustrating.",4
+user_0051,2025-07-16 18:00:00,chatbot,"Email offers are great, I found a nice deal.",2
+user_0471,2025-10-04 13:00:00,chatbot,"Email offers are great, I found a nice deal.",5
+user_0342,4/6/2025 12:0,app_review,"Ad was misleading, the discount didn’t apply.",
+user_0289,2025-09-09 05:00:00,chatbot,Socail media posts were engaging!,5
+user_0390,2025-10-12 14:00:00,email_feedback,"Email offers are great, I found a nice deal.",4
+user_0454,2025-08-05 13:00:00,email_feedback,I love how fast the checkout process is!,1
+user_0153,2025-09-07 09:00:00,chatbot,I love how fast the checkout process is!,4
+user_0207,2025-10-25 13:00:00,twitter,"Email offers are great, I found a nice deal.",
+user_0126,2025-09-26 16:00:00,chatbot,Customer service was rude and unhelpful.,2
+user_0126,2025-06-03 22:00:00,chatbot,The app keeps crashing when I try to pay. 😡,2
+user_0053,2025-10-05 18:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",4
+user_0412,2025-06-25 10:00:00,app_review,Socail media posts were engaging!,2
+user_0250,2025-06-08 20:00:00,chatbot,The app keeps crashing when I try to pay. 😡,5
+user_0023,2025-07-14 23:00:00,chatbot,"My issue was solved quickly, thank you.",5
+user_0316,2025-08-19 02:00:00,chatbot,I love how fast the checkout process is!,3
+user_0187,2025-07-01 14:00:00,chatbot,The loyalty program is confusing.,3
+user_0134,2025-06-06 06:00:00,twitter,"Email offers are great, I found a nice deal.",2
+user_0285,2025-06-30 19:00:00,app_review,The app keeps crashing when I try to pay. 😡,2
+user_0254,2025-06-03 16:00:00,twitter,"My issue was solved quickly, thank you.",
+user_0390,2025-06-05 18:00:00,chatbot,"Email offers are great, I found a nice deal.",
+user_0256,17/6/2025 19:0,twitter,Customer service was rude and unhelpful.,3
+user_0323,2025-07-27 15:00:00,email_feedback,"Email offers are great, I found a nice deal.",3
+user_0349,2025-08-09 11:00:00,email_feedback,"My issue was solved quickly, thank you.",1
+user_0303,2025-08-17 10:00:00,twitter,"Email offers are great, I found a nice deal.",5
+user_0083,2025-05-01 05:00:00,chatbot,The loyalty program is confusing.,
+user_0218,2025-05-21 08:00:00,twitter,"My issue was solved quickly, thank you.",
+user_0285,2025-07-03 20:00:00,chatbot,"Still waiting for my refund, very frustrating.",4
+user_0000,27/9/2025 8:0,app_review,The loyalty program is confusing.,3
+user_0379,2025-10-08 12:00:00,twitter,"Still waiting for my refund, very frustrating.",
+user_0196,2025-09-28 17:00:00,app_review,The loyalty program is confusing.,2
+user_0073,2025-06-28 16:00:00,email_feedback,"Still waiting for my refund, very frustrating.",2
+user_0487,2025-07-05 17:00:00,chatbot,"Email offers are great, I found a nice deal.",1
+user_0114,2025-05-05 15:00:00,chatbot,I love how fast the checkout process is!,3
+user_0270,2025-06-11 06:00:00,app_review,"Still waiting for my refund, very frustrating.",
+user_0137,2025-07-16 17:00:00,app_review,"Email offers are great, I found a nice deal.",2
+user_0320,2025-08-17 14:00:00,chatbot,The loyalty program is confusing.,5
+user_0440,2025-10-25 14:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0449,2025-08-13 14:00:00,app_review,Customer service was rude and unhelpful.,
+user_0319,2025-06-16 07:00:00,chatbot,The app keeps crashing when I try to pay. 😡,5
+user_0360,2025-06-17 00:00:00,twitter,The app keeps crashing when I try to pay. 😡,3
+user_0442,2025-10-19 06:00:00,twitter,"My issue was solved quickly, thank you.",2
+user_0218,2025-09-25 13:00:00,email_feedback,Socail media posts were engaging!,
+user_0192,2025-09-09 14:00:00,twitter,"Ad was misleading, the discount didn’t apply.",4
+user_0140,2025-09-11 17:00:00,chatbot,"Still waiting for my refund, very frustrating.",3
+user_0244,2025-07-14 18:00:00,chatbot,"Still waiting for my refund, very frustrating.",
+user_0311,2025-10-13 00:00:00,chatbot,"My issue was solved quickly, thank you.",1
+user_0166,2025-07-22 12:00:00,email_feedback,"Still waiting for my refund, very frustrating.",4
+user_0200,2025-05-16 21:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",
+user_0467,2025-07-20 04:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0449,2025-06-30 11:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",4
+user_0244,2025-09-29 09:00:00,chatbot,"Still waiting for my refund, very frustrating.",4
+user_0127,2025-10-14 20:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0491,2025-07-26 06:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0278,2025-08-28 17:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,4
+user_0401,2025-07-07 06:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0236,2025-06-04 09:00:00,twitter,"My issue was solved quickly, thank you.",
+user_0222,2025-05-09 20:00:00,chatbot,"Email offers are great, I found a nice deal.",4
+user_0317,24/7/2025 10:0,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0062,2025-05-07 10:00:00,twitter,"Still waiting for my refund, very frustrating.",
+user_0185,2025-09-04 01:00:00,twitter,"Email offers are great, I found a nice deal.",4
+user_0153,2025-07-13 03:00:00,app_review,The loyalty program is confusing.,
+user_0439,2025-05-01 08:00:00,chatbot,Customer service was rude and unhelpful.,1
+user_0258,2025-08-07 22:00:00,app_review,I love how fast the checkout process is!,2
+user_0350,2025-10-21 03:00:00,email_feedback,"Still waiting for my refund, very frustrating.",
+user_0395,2025-06-17 21:00:00,twitter,"Ad was misleading, the discount didn’t apply.",2
+user_0236,2025-09-15 04:00:00,chatbot,Socail media posts were engaging!,
+user_0448,2025-07-11 15:00:00,app_review,Customer service was rude and unhelpful.,4
+user_0087,2025-08-20 17:00:00,email_feedback,"Still waiting for my refund, very frustrating.",5
+user_0079,2025-07-27 16:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0420,2025-05-23 00:00:00,email_feedback,I love how fast the checkout process is!,1
+user_0355,2025-07-08 15:00:00,twitter,I love how fast the checkout process is!,1
+user_0112,2025-05-29 17:00:00,email_feedback,"My issue was solved quickly, thank you.",1
+user_0111,2025-07-10 18:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,
+user_0108,2025-05-29 06:00:00,app_review,Customer service was rude and unhelpful.,4
+user_0073,2025-05-08 23:00:00,app_review,I love how fast the checkout process is!,5
+user_0139,2025-09-22 14:00:00,twitter,I love how fast the checkout process is!,5
+user_0177,2025-07-07 08:00:00,twitter,"Still waiting for my refund, very frustrating.",2
+user_0284,2025-05-08 12:00:00,app_review,Customer service was rude and unhelpful.,4
+user_0284,2025-08-08 21:00:00,twitter,I love how fast the checkout process is!,3
+user_0050,2025-09-14 09:00:00,app_review,The app keeps crashing when I try to pay. 😡,
+user_0040,2025-07-02 15:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",
+user_0156,2025-05-16 05:00:00,chatbot,"Still waiting for my refund, very frustrating.",3
+user_0087,2025-09-11 00:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0462,2025-08-29 03:00:00,email_feedback,The loyalty program is confusing.,5
+user_0111,2025-08-25 18:00:00,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0462,2025-05-11 05:00:00,app_review,"My issue was solved quickly, thank you.",5
+user_0024,2025-08-19 21:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0328,2025-09-20 13:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,2
+user_0492,13/6/2025 14:0,email_feedback,"Ad was misleading, the discount didn’t apply.",5
+user_0256,2025-05-16 16:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0317,2025-06-13 04:00:00,chatbot,Socail media posts were engaging!,3
+user_0378,2025-08-21 05:00:00,email_feedback,"My issue was solved quickly, thank you.",
+user_0368,2025-06-20 10:00:00,email_feedback,The loyalty program is confusing.,1
+user_0438,2025-08-29 19:00:00,app_review,Customer service was rude and unhelpful.,5
+user_0414,2025-08-21 18:00:00,chatbot,The app keeps crashing when I try to pay. 😡,4
+user_0271,2025-05-06 20:00:00,app_review,The loyalty program is confusing.,
+user_0181,2025-09-10 09:00:00,app_review,Customer service was rude and unhelpful.,4
+user_0398,2025-06-11 00:00:00,email_feedback,The loyalty program is confusing.,3
+user_0003,2025-08-23 23:00:00,chatbot,Customer service was rude and unhelpful.,5
+user_0430,2025-05-17 15:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0051,2025-10-11 11:00:00,app_review,Customer service was rude and unhelpful.,2
+user_0002,2025-06-03 02:00:00,app_review,"Ad was misleading, the discount didn’t apply.",1
+user_0087,2025-10-22 03:00:00,chatbot,I love how fast the checkout process is!,4
+user_0003,2025-10-01 18:00:00,email_feedback,"Email offers are great, I found a nice deal.",4
+user_0255,2025-05-30 11:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",1
+user_0106,2025-05-07 06:00:00,chatbot,"My issue was solved quickly, thank you.",2
+user_0182,2025-06-30 14:00:00,twitter,"Email offers are great, I found a nice deal.",4
+user_0305,2025-08-22 02:00:00,email_feedback,"My issue was solved quickly, thank you.",5
+user_0056,2025-06-23 08:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",
+user_0090,2025-08-29 15:00:00,chatbot,The app keeps crashing when I try to pay. 😡,4
+user_0319,2025-07-14 22:00:00,chatbot,Customer service was rude and unhelpful.,
+user_0340,2025-06-15 18:00:00,twitter,"Ad was misleading, the discount didn’t apply.",4
+user_0126,2025-05-03 02:00:00,email_feedback,"Email offers are great, I found a nice deal.",
+user_0014,2025-06-15 18:00:00,app_review,"Email offers are great, I found a nice deal.",1
+user_0422,2025-08-07 11:00:00,email_feedback,"Still waiting for my refund, very frustrating.",4
+user_0010,2025-06-07 13:00:00,email_feedback,"Still waiting for my refund, very frustrating.",5
+user_0294,2025-08-26 13:00:00,email_feedback,Customer service was rude and unhelpful.,
+user_0162,2025-09-12 19:00:00,email_feedback,I love how fast the checkout process is!,
+user_0140,2025-10-18 18:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0263,2025-05-14 21:00:00,email_feedback,I love how fast the checkout process is!,4
+user_0312,2025-06-23 01:00:00,app_review,"My issue was solved quickly, thank you.",1
+user_0230,2025-06-18 08:00:00,app_review,"Email offers are great, I found a nice deal.",1
+user_0382,2025-10-08 05:00:00,app_review,"Email offers are great, I found a nice deal.",
+user_0103,2025-08-29 18:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0208,2025-09-14 13:00:00,chatbot,"Email offers are great, I found a nice deal.",3
+user_0179,2025-10-25 03:00:00,email_feedback,Socail media posts were engaging!,2
+user_0047,2025-06-11 04:00:00,chatbot,"Email offers are great, I found a nice deal.",2
+user_0364,2025-08-03 02:00:00,email_feedback,The loyalty program is confusing.,
+user_0091,2025-07-21 15:00:00,app_review,"My issue was solved quickly, thank you.",1
+user_0060,2025-05-12 22:00:00,chatbot,The loyalty program is confusing.,2
+user_0381,2025-05-14 14:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",
+user_0197,2025-09-05 14:00:00,email_feedback,Socail media posts were engaging!,4
+user_0407,2025-09-21 13:00:00,app_review,"Email offers are great, I found a nice deal.",1
+user_0452,2025-09-07 08:00:00,app_review,"Email offers are great, I found a nice deal.",4
+user_0239,2025-07-29 08:00:00,email_feedback,Customer service was rude and unhelpful.,3
+user_0151,2025-08-09 14:00:00,chatbot,"My issue was solved quickly, thank you.",2
+user_0469,2025-06-24 19:00:00,chatbot,The loyalty program is confusing.,1
+user_0335,2025-06-29 21:00:00,email_feedback,"Email offers are great, I found a nice deal.",3
+user_0139,2025-05-14 05:00:00,email_feedback,I love how fast the checkout process is!,4
+user_0233,2025-08-19 14:00:00,email_feedback,"My issue was solved quickly, thank you.",1
+user_0020,2025-09-11 19:00:00,chatbot,I love how fast the checkout process is!,5
+user_0059,2025-06-02 09:00:00,chatbot,"Still waiting for my refund, very frustrating.",1
+user_0484,2025-06-10 09:00:00,email_feedback,Socail media posts were engaging!,4
+user_0235,2025-06-13 14:00:00,app_review,I love how fast the checkout process is!,4
+user_0401,2025-05-19 07:00:00,email_feedback,I love how fast the checkout process is!,5
+user_0478,2025-06-10 05:00:00,app_review,"Ad was misleading, the discount didn’t apply.",1
+user_0369,2025-06-11 22:00:00,chatbot,"Still waiting for my refund, very frustrating.",3
+user_0456,2025-05-15 22:00:00,app_review,Socail media posts were engaging!,3
+user_0426,2025-09-02 12:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",3
+user_0398,2025-09-20 03:00:00,chatbot,Customer service was rude and unhelpful.,5
+user_0214,2025-07-26 05:00:00,twitter,I love how fast the checkout process is!,3
+user_0484,2025-10-13 01:00:00,chatbot,I love how fast the checkout process is!,3
+user_0364,2025-06-25 08:00:00,twitter,I love how fast the checkout process is!,
+user_0110,2025-09-28 17:00:00,email_feedback,"My issue was solved quickly, thank you.",
+user_0352,2025-09-23 19:00:00,app_review,The loyalty program is confusing.,
+user_0488,2025-05-26 12:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",
+user_0342,2025-05-31 02:00:00,chatbot,I love how fast the checkout process is!,5
+user_0324,6/6/2025 10:0,email_feedback,"My issue was solved quickly, thank you.",4
+user_0310,2025-07-01 10:00:00,email_feedback,The loyalty program is confusing.,4
+user_0381,2025-07-13 09:00:00,twitter,The loyalty program is confusing.,
+user_0288,2025-09-16 10:00:00,app_review,The app keeps crashing when I try to pay. 😡,4
+user_0113,2025-06-26 23:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0033,2025-08-17 12:00:00,email_feedback,"My issue was solved quickly, thank you.",2
+user_0155,2025-07-23 02:00:00,app_review,"Email offers are great, I found a nice deal.",5
+user_0408,2025-10-11 01:00:00,chatbot,The loyalty program is confusing.,4
+user_0268,2025-07-12 08:00:00,app_review,"Still waiting for my refund, very frustrating.",
+user_0459,2025-06-28 13:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0275,29/9/2025 8:0,email_feedback,Socail media posts were engaging!,1
+user_0422,2025-09-05 08:00:00,app_review,"Ad was misleading, the discount didn’t apply.",1
+user_0237,2025-05-23 14:00:00,email_feedback,"Still waiting for my refund, very frustrating.",5
+user_0342,2025-10-01 05:00:00,app_review,The loyalty program is confusing.,2
+user_0290,2025-05-09 19:00:00,twitter,"Still waiting for my refund, very frustrating.",4
+user_0272,2025-09-28 22:00:00,email_feedback,I love how fast the checkout process is!,5
+user_0409,2025-06-28 21:00:00,chatbot,Socail media posts were engaging!,2
+user_0415,2025-10-28 03:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0395,18/6/2025 17:0,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0065,2025-08-19 10:00:00,app_review,The loyalty program is confusing.,2
+user_0373,2025-07-28 01:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",1
+user_0228,2025-09-25 11:00:00,chatbot,I love how fast the checkout process is!,
+user_0261,2025-08-18 00:00:00,twitter,"Still waiting for my refund, very frustrating.",2
+user_0138,2025-08-20 00:00:00,twitter,The loyalty program is confusing.,
+user_0445,2025-06-28 11:00:00,email_feedback,Customer service was rude and unhelpful.,4
+user_0406,2025-09-14 22:00:00,email_feedback,"Still waiting for my refund, very frustrating.",5
+user_0270,2025-07-16 15:00:00,email_feedback,Socail media posts were engaging!,5
+user_0410,2025-05-03 00:00:00,twitter,"Ad was misleading, the discount didn’t apply.",2
+user_0099,2025-10-11 14:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",
+user_0130,2025-09-04 10:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",4
+user_0384,2025-07-26 09:00:00,app_review,Socail media posts were engaging!,5
+user_0015,2025-08-20 12:00:00,email_feedback,I love how fast the checkout process is!,
+user_0425,2025-10-28 20:00:00,email_feedback,"Still waiting for my refund, very frustrating.",3
+user_0142,2025-07-25 17:00:00,app_review,The loyalty program is confusing.,3
+user_0382,2025-10-27 02:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0058,2025-10-06 03:00:00,app_review,"Ad was misleading, the discount didn’t apply.",2
+user_0353,2025-08-15 12:00:00,chatbot,Socail media posts were engaging!,2
+user_0106,2025-05-13 06:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0008,2025-09-13 21:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",5
+user_0016,2025-05-10 15:00:00,app_review,I love how fast the checkout process is!,2
+user_0297,2025-06-29 13:00:00,app_review,Customer service was rude and unhelpful.,1
+user_0368,2025-09-07 19:00:00,app_review,Socail media posts were engaging!,
+user_0490,2025-07-06 09:00:00,app_review,"Still waiting for my refund, very frustrating.",
+user_0185,2025-10-15 20:00:00,twitter,"Ad was misleading, the discount didn’t apply.",3
+user_0087,2025-08-03 16:00:00,email_feedback,"My issue was solved quickly, thank you.",
+user_0368,2025-08-02 06:00:00,chatbot,Socail media posts were engaging!,
+user_0035,2025-09-04 21:00:00,twitter,"Still waiting for my refund, very frustrating.",3
+user_0041,2025-07-31 13:00:00,chatbot,The app keeps crashing when I try to pay. 😡,4
+user_0059,2025-09-15 03:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",
+user_0266,2025-06-19 21:00:00,twitter,The app keeps crashing when I try to pay. 😡,
+user_0273,2025-08-25 02:00:00,twitter,Socail media posts were engaging!,4
+user_0110,2025-05-20 18:00:00,app_review,"Ad was misleading, the discount didn’t apply.",3
+user_0199,2025-07-22 16:00:00,chatbot,Socail media posts were engaging!,5
+user_0396,2025-07-14 05:00:00,chatbot,Socail media posts were engaging!,1
+user_0194,3/5/2025 12:0,twitter,Customer service was rude and unhelpful.,1
+user_0282,2025-08-01 00:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",1
+user_0360,2025-10-25 00:00:00,chatbot,Socail media posts were engaging!,
+user_0430,2025-08-27 22:00:00,chatbot,"My issue was solved quickly, thank you.",5
+user_0049,2025-06-08 09:00:00,chatbot,The loyalty program is confusing.,5
+user_0144,2025-08-02 06:00:00,app_review,"Email offers are great, I found a nice deal.",3
+user_0261,2025-06-17 04:00:00,chatbot,"Email offers are great, I found a nice deal.",4
+user_0243,2025-07-22 02:00:00,app_review,"Ad was misleading, the discount didn’t apply.",4
+user_0022,2025-05-09 14:00:00,app_review,"Email offers are great, I found a nice deal.",3
+user_0410,2025-10-25 06:00:00,chatbot,"My issue was solved quickly, thank you.",
+user_0362,2025-10-23 12:00:00,twitter,The app keeps crashing when I try to pay. 😡,1
+user_0301,2025-05-29 17:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",1
+user_0078,2025-06-08 09:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0187,17/9/2025 21:0,chatbot,Customer service was rude and unhelpful.,
+user_0423,2025-07-07 16:00:00,email_feedback,I love how fast the checkout process is!,4
+user_0069,2025-06-25 17:00:00,app_review,The loyalty program is confusing.,3
+user_0266,2025-08-15 02:00:00,twitter,"Still waiting for my refund, very frustrating.",5
+user_0434,2025-05-20 11:00:00,chatbot,The loyalty program is confusing.,1
+user_0409,2025-05-20 03:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",1
+user_0485,2025-09-25 18:00:00,chatbot,I love how fast the checkout process is!,
+user_0475,2025-06-06 23:00:00,email_feedback,I love how fast the checkout process is!,1
+user_0167,2025-06-30 07:00:00,email_feedback,"Still waiting for my refund, very frustrating.",
+user_0143,2025-06-13 14:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0301,2025-07-16 07:00:00,email_feedback,"My issue was solved quickly, thank you.",2
+user_0426,2025-08-24 10:00:00,chatbot,Socail media posts were engaging!,2
+user_0160,2025-10-23 05:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0035,2025-09-03 05:00:00,app_review,"My issue was solved quickly, thank you.",4
+user_0436,2025-08-21 06:00:00,twitter,"Ad was misleading, the discount didn’t apply.",1
+user_0004,2025-06-08 13:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",
+user_0429,2025-06-07 10:00:00,chatbot,"My issue was solved quickly, thank you.",2
+user_0292,2025-05-22 11:00:00,app_review,"My issue was solved quickly, thank you.",
+user_0006,2025-06-05 12:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",
+user_0269,2025-09-11 07:00:00,twitter,The loyalty program is confusing.,4
+user_0319,2025-06-09 15:00:00,app_review,Customer service was rude and unhelpful.,
+user_0377,2025-05-10 20:00:00,app_review,I love how fast the checkout process is!,
+user_0469,2025-07-31 07:00:00,app_review,The loyalty program is confusing.,3
+user_0185,2025-06-28 16:00:00,chatbot,The loyalty program is confusing.,3
+user_0390,2025-09-17 09:00:00,email_feedback,The loyalty program is confusing.,5
+user_0432,2025-10-09 05:00:00,email_feedback,Socail media posts were engaging!,3
+user_0181,2025-08-02 05:00:00,twitter,"Email offers are great, I found a nice deal.",3
+user_0037,2025-07-09 02:00:00,chatbot,"Still waiting for my refund, very frustrating.",3
+user_0231,29/9/2025 7:0,app_review,Socail media posts were engaging!,1
+user_0070,2025-07-12 01:00:00,chatbot,The loyalty program is confusing.,3
+user_0159,2025-06-19 06:00:00,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0392,2025-05-04 11:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",3
+user_0219,2025-05-25 21:00:00,app_review,"Still waiting for my refund, very frustrating.",
+user_0113,2025-05-21 20:00:00,app_review,Customer service was rude and unhelpful.,5
+user_0089,2025-08-31 12:00:00,chatbot,The app keeps crashing when I try to pay. 😡,1
+user_0147,2025-10-25 15:00:00,twitter,The loyalty program is confusing.,5
+user_0385,2025-08-29 11:00:00,chatbot,I love how fast the checkout process is!,1
+user_0462,2025-10-20 08:00:00,twitter,The loyalty program is confusing.,5
+user_0417,2025-05-12 13:00:00,twitter,"Still waiting for my refund, very frustrating.",
+user_0097,2025-10-14 22:00:00,twitter,Socail media posts were engaging!,
+user_0034,2025-09-26 16:00:00,email_feedback,The loyalty program is confusing.,
+user_0324,2025-05-29 17:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0134,2025-07-22 21:00:00,email_feedback,I love how fast the checkout process is!,4
+user_0081,2025-08-07 22:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0002,2025-07-01 21:00:00,twitter,"Ad was misleading, the discount didn’t apply.",4
+user_0229,2025-07-02 11:00:00,email_feedback,Customer service was rude and unhelpful.,3
+user_0323,2025-09-20 18:00:00,email_feedback,I love how fast the checkout process is!,
+user_0148,2025-10-04 04:00:00,email_feedback,Socail media posts were engaging!,1
+user_0437,2025-08-18 18:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",5
+user_0223,2025-06-12 20:00:00,email_feedback,"Still waiting for my refund, very frustrating.",2
+user_0050,2025-08-24 08:00:00,email_feedback,"Email offers are great, I found a nice deal.",1
+user_0033,2025-07-18 00:00:00,twitter,The app keeps crashing when I try to pay. 😡,
+user_0242,2025-10-12 00:00:00,chatbot,Socail media posts were engaging!,5
+user_0102,2025-05-26 03:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",3
+user_0111,2025-09-25 08:00:00,app_review,The app keeps crashing when I try to pay. 😡,
+user_0170,2025-05-01 06:00:00,email_feedback,"My issue was solved quickly, thank you.",3
+user_0049,2025-10-13 17:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,5
+user_0278,2025-09-14 06:00:00,chatbot,"My issue was solved quickly, thank you.",
+user_0229,2025-07-31 07:00:00,twitter,"My issue was solved quickly, thank you.",3
+user_0040,2025-07-14 22:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0316,2025-06-08 06:00:00,twitter,The loyalty program is confusing.,4
+user_0326,2025-10-02 10:00:00,email_feedback,"My issue was solved quickly, thank you.",5
+user_0240,2025-09-30 22:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",3
+user_0210,2025-10-10 21:00:00,twitter,"Still waiting for my refund, very frustrating.",1
+user_0286,2025-09-08 11:00:00,app_review,"My issue was solved quickly, thank you.",
+user_0241,2025-07-12 01:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",3
+user_0497,2025-10-15 07:00:00,email_feedback,I love how fast the checkout process is!,3
+user_0491,2025-09-16 09:00:00,app_review,"My issue was solved quickly, thank you.",4
+user_0164,2025-07-08 04:00:00,app_review,Socail media posts were engaging!,3
+user_0307,2025-08-12 15:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",
+user_0462,2025-05-24 05:00:00,twitter,The loyalty program is confusing.,
+user_0251,2025-07-06 21:00:00,app_review,The app keeps crashing when I try to pay. 😡,1
+user_0139,2025-07-02 12:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0229,2025-09-23 03:00:00,app_review,"Ad was misleading, the discount didn’t apply.",5
+user_0197,2025-06-15 19:00:00,app_review,Socail media posts were engaging!,5
+user_0200,2025-09-25 03:00:00,app_review,Customer service was rude and unhelpful.,
+user_0233,2025-09-13 21:00:00,app_review,Customer service was rude and unhelpful.,4
+user_0131,2025-08-13 10:00:00,email_feedback,Customer service was rude and unhelpful.,2
+user_0400,2025-05-14 15:00:00,email_feedback,Customer service was rude and unhelpful.,3
+user_0476,2025-09-08 10:00:00,chatbot,"My issue was solved quickly, thank you.",5
+user_0046,2025-09-10 07:00:00,twitter,The loyalty program is confusing.,
+user_0038,2025-05-29 02:00:00,chatbot,I love how fast the checkout process is!,5
+user_0067,2025-10-16 15:00:00,app_review,I love how fast the checkout process is!,
+user_0155,2025-07-29 08:00:00,email_feedback,"Email offers are great, I found a nice deal.",5
+user_0350,2025-10-27 14:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",4
+user_0090,2025-08-16 09:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",2
+user_0459,2025-10-23 00:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",3
+user_0081,2025-08-14 02:00:00,email_feedback,Customer service was rude and unhelpful.,
+user_0027,2025-06-21 16:00:00,chatbot,"My issue was solved quickly, thank you.",3
+user_0288,2025-08-06 00:00:00,email_feedback,"Email offers are great, I found a nice deal.",2
+user_0300,2025-08-21 22:00:00,chatbot,"Still waiting for my refund, very frustrating.",
+user_0302,2025-10-20 07:00:00,app_review,The loyalty program is confusing.,2
+user_0368,2025-05-28 17:00:00,email_feedback,The loyalty program is confusing.,3
+user_0105,2025-09-10 10:00:00,chatbot,"My issue was solved quickly, thank you.",4
+user_0127,2025-05-17 06:00:00,email_feedback,Customer service was rude and unhelpful.,3
+user_0487,2025-10-11 18:00:00,app_review,Customer service was rude and unhelpful.,
+user_0135,2025-07-13 10:00:00,app_review,I love how fast the checkout process is!,1
+user_0039,2025-10-13 15:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",
+user_0172,2025-06-22 17:00:00,email_feedback,The loyalty program is confusing.,5
+user_0213,2025-08-24 06:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0058,2025-07-12 21:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,
+user_0126,2025-10-04 13:00:00,twitter,I love how fast the checkout process is!,
+user_0045,2025-06-28 11:00:00,email_feedback,"Email offers are great, I found a nice deal.",2
+user_0284,2025-08-14 05:00:00,email_feedback,The loyalty program is confusing.,1
+user_0493,2025-07-23 15:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0447,2025-08-23 03:00:00,twitter,"Still waiting for my refund, very frustrating.",
+user_0457,2025-10-03 16:00:00,email_feedback,"Still waiting for my refund, very frustrating.",3
+user_0326,2025-06-10 05:00:00,email_feedback,Customer service was rude and unhelpful.,3
+user_0127,2025-07-27 14:00:00,chatbot,The loyalty program is confusing.,4
+user_0481,2025-06-12 22:00:00,twitter,Customer service was rude and unhelpful.,
+user_0246,2025-10-02 06:00:00,twitter,I love how fast the checkout process is!,4
+user_0498,2025-09-05 07:00:00,app_review,"Ad was misleading, the discount didn’t apply.",
+user_0231,2025-05-16 05:00:00,email_feedback,"Email offers are great, I found a nice deal.",5
+user_0379,2025-06-08 02:00:00,app_review,"My issue was solved quickly, thank you.",2
+user_0125,2025-08-08 08:00:00,app_review,The app keeps crashing when I try to pay. 😡,5
+user_0295,2025-10-18 09:00:00,chatbot,"Email offers are great, I found a nice deal.",1
+user_0097,2025-10-07 12:00:00,twitter,"Ad was misleading, the discount didn’t apply.",3
+user_0210,2025-06-24 05:00:00,app_review,"Ad was misleading, the discount didn’t apply.",
+user_0027,2025-10-08 15:00:00,email_feedback,"Email offers are great, I found a nice deal.",1
+user_0163,2025-06-10 11:00:00,app_review,"Email offers are great, I found a nice deal.",
+user_0165,2025-08-05 19:00:00,chatbot,I love how fast the checkout process is!,2
+user_0359,2025-09-13 02:00:00,app_review,"My issue was solved quickly, thank you.",4
+user_0476,2025-07-26 14:00:00,app_review,"Ad was misleading, the discount didn’t apply.",
+user_0306,2025-05-20 03:00:00,twitter,Socail media posts were engaging!,
+user_0196,2025-06-30 18:00:00,chatbot,I love how fast the checkout process is!,3
+user_0319,2025-07-07 11:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0319,2025-10-01 13:00:00,app_review,"My issue was solved quickly, thank you.",5
+user_0249,2025-07-19 00:00:00,twitter,I love how fast the checkout process is!,
+user_0116,2025-05-10 17:00:00,email_feedback,"Email offers are great, I found a nice deal.",1
+user_0156,2025-06-30 15:00:00,app_review,"My issue was solved quickly, thank you.",
+user_0477,2025-05-02 15:00:00,app_review,I love how fast the checkout process is!,
+user_0115,2025-08-14 23:00:00,twitter,"My issue was solved quickly, thank you.",1
+user_0004,2025-10-06 04:00:00,email_feedback,Socail media posts were engaging!,4
+user_0155,2025-07-15 21:00:00,email_feedback,Customer service was rude and unhelpful.,2
+user_0192,2025-07-19 00:00:00,twitter,"Still waiting for my refund, very frustrating.",2
+user_0432,2025-08-04 17:00:00,email_feedback,Socail media posts were engaging!,1
+user_0442,2025-08-23 04:00:00,twitter,Customer service was rude and unhelpful.,2
+user_0298,2025-06-24 22:00:00,chatbot,The loyalty program is confusing.,4
+user_0018,2025-07-03 14:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0385,2025-08-27 14:00:00,email_feedback,The loyalty program is confusing.,4
+user_0100,2025-07-05 04:00:00,twitter,The loyalty program is confusing.,1
+user_0145,2025-09-19 03:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0184,2025-09-17 14:00:00,app_review,Socail media posts were engaging!,3
+user_0483,2025-05-19 21:00:00,email_feedback,The loyalty program is confusing.,
+user_0218,5/5/2025 7:0,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0192,2025-06-24 04:00:00,twitter,Customer service was rude and unhelpful.,1
+user_0092,2025-09-30 16:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0087,2025-08-26 14:00:00,email_feedback,Socail media posts were engaging!,4
+user_0092,2025-07-26 14:00:00,app_review,The app keeps crashing when I try to pay. 😡,1
+user_0223,2025-06-14 23:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,1
+user_0033,2025-06-03 03:00:00,app_review,The loyalty program is confusing.,
+user_0222,2025-08-05 04:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",
+user_0004,2025-07-07 07:00:00,twitter,Customer service was rude and unhelpful.,2
+user_0146,2025-07-29 21:00:00,twitter,I love how fast the checkout process is!,5
+user_0111,2025-09-04 19:00:00,email_feedback,I love how fast the checkout process is!,5
+user_0191,2025-07-20 11:00:00,twitter,I love how fast the checkout process is!,4
+user_0394,2025-10-26 00:00:00,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0000,2025-07-26 09:00:00,app_review,Customer service was rude and unhelpful.,3
+user_0242,2025-07-15 02:00:00,chatbot,The loyalty program is confusing.,2
+user_0083,2025-06-10 20:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0298,2025-10-07 06:00:00,chatbot,"Still waiting for my refund, very frustrating.",
+user_0207,2025-08-10 13:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",2
+user_0191,2025-09-09 17:00:00,twitter,I love how fast the checkout process is!,2
+user_0473,2025-10-06 05:00:00,twitter,Customer service was rude and unhelpful.,4
+user_0223,2025-05-11 22:00:00,twitter,"Email offers are great, I found a nice deal.",4
+user_0400,2025-09-09 04:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",
+user_0011,2025-06-03 03:00:00,chatbot,I love how fast the checkout process is!,3
+user_0113,2025-08-17 15:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0150,30/9/2025 19:0,app_review,The app keeps crashing when I try to pay. 😡,4
+user_0395,2025-07-30 08:00:00,chatbot,The loyalty program is confusing.,2
+user_0408,2025-08-23 22:00:00,twitter,The loyalty program is confusing.,2
+user_0379,2025-05-21 14:00:00,email_feedback,The loyalty program is confusing.,2
+user_0139,2025-05-11 20:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0146,2025-07-03 23:00:00,chatbot,Socail media posts were engaging!,5
+user_0037,2025-07-06 18:00:00,twitter,"My issue was solved quickly, thank you.",3
+user_0000,2025-05-15 13:00:00,chatbot,I love how fast the checkout process is!,4
+user_0417,14/5/2025 14:0,chatbot,"Email offers are great, I found a nice deal.",2
+user_0033,2/8/2025 6:0,app_review,"Email offers are great, I found a nice deal.",4
+user_0437,2025-06-25 05:00:00,twitter,I love how fast the checkout process is!,4
+user_0303,2025-07-06 18:00:00,twitter,Customer service was rude and unhelpful.,4
+user_0255,2025-07-26 01:00:00,twitter,The loyalty program is confusing.,2
+user_0276,2025-09-26 10:00:00,twitter,I love how fast the checkout process is!,3
+user_0101,2025-10-15 02:00:00,twitter,Socail media posts were engaging!,
+user_0249,2025-06-07 09:00:00,app_review,"Still waiting for my refund, very frustrating.",5
+user_0049,2025-06-25 16:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0063,21/10/2025 14:0,app_review,Customer service was rude and unhelpful.,4
+user_0366,2025-06-14 11:00:00,app_review,"Ad was misleading, the discount didn’t apply.",3
+user_0286,2025-09-14 18:00:00,email_feedback,"Email offers are great, I found a nice deal.",2
+user_0490,2025-10-25 16:00:00,email_feedback,I love how fast the checkout process is!,3
+user_0425,2025-05-07 13:00:00,app_review,"Ad was misleading, the discount didn’t apply.",
+user_0308,2025-08-30 16:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",1
+user_0309,2025-06-02 13:00:00,chatbot,The loyalty program is confusing.,3
+user_0327,2025-06-07 22:00:00,app_review,"My issue was solved quickly, thank you.",5
+user_0358,2025-05-23 10:00:00,chatbot,Customer service was rude and unhelpful.,5
+user_0216,2025-06-04 12:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0456,2025-07-19 00:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",3
+user_0472,2025-08-24 14:00:00,chatbot,Customer service was rude and unhelpful.,4
+user_0076,2025-09-26 00:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0092,2025-10-26 09:00:00,twitter,"Still waiting for my refund, very frustrating.",4
+user_0469,2025-05-15 07:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",5
+user_0387,2025-10-05 07:00:00,chatbot,"Email offers are great, I found a nice deal.",2
+user_0410,2025-10-26 02:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0292,2025-06-18 08:00:00,twitter,Socail media posts were engaging!,5
+user_0023,2025-10-09 16:00:00,app_review,Socail media posts were engaging!,4
+user_0345,2025-06-25 15:00:00,chatbot,Socail media posts were engaging!,3
+user_0081,2025-08-11 15:00:00,twitter,Customer service was rude and unhelpful.,2
+user_0209,2025-06-22 00:00:00,app_review,"Ad was misleading, the discount didn’t apply.",3
+user_0110,2025-07-10 17:00:00,email_feedback,Socail media posts were engaging!,
+user_0466,2025-07-14 23:00:00,twitter,Customer service was rude and unhelpful.,2
+user_0362,2025-06-11 15:00:00,app_review,The app keeps crashing when I try to pay. 😡,1
+user_0037,2025-08-18 07:00:00,email_feedback,"My issue was solved quickly, thank you.",2
+user_0095,2025-06-23 21:00:00,email_feedback,Socail media posts were engaging!,4
+user_0177,2025-10-03 08:00:00,app_review,I love how fast the checkout process is!,
+user_0439,2025-10-25 00:00:00,email_feedback,"Email offers are great, I found a nice deal.",
+user_0082,2025-07-03 02:00:00,twitter,"Email offers are great, I found a nice deal.",4
+user_0463,2025-05-01 16:00:00,chatbot,The app keeps crashing when I try to pay. 😡,1
+user_0261,2025-07-31 09:00:00,twitter,"Still waiting for my refund, very frustrating.",1
+user_0308,2025-06-28 21:00:00,chatbot,The app keeps crashing when I try to pay. 😡,1
+user_0350,2025-09-19 02:00:00,twitter,Customer service was rude and unhelpful.,4
+user_0361,2025-07-10 01:00:00,twitter,The loyalty program is confusing.,
+user_0196,2025-07-27 15:00:00,twitter,Customer service was rude and unhelpful.,3
+user_0134,2025-06-16 04:00:00,email_feedback,Socail media posts were engaging!,2
+user_0232,2025-10-24 09:00:00,email_feedback,Customer service was rude and unhelpful.,5
+user_0327,2025-07-30 12:00:00,twitter,"My issue was solved quickly, thank you.",2
+user_0341,2025-08-31 19:00:00,app_review,"Still waiting for my refund, very frustrating.",4
+user_0156,2025-06-14 01:00:00,twitter,Socail media posts were engaging!,5
+user_0123,2025-09-02 16:00:00,twitter,I love how fast the checkout process is!,
+user_0205,2025-07-15 05:00:00,twitter,"My issue was solved quickly, thank you.",3
+user_0100,2025-08-30 20:00:00,app_review,"Still waiting for my refund, very frustrating.",5
+user_0413,18/8/2025 17:0,twitter,The loyalty program is confusing.,1
+user_0471,2025-05-10 11:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",1
+user_0156,2025-07-29 05:00:00,twitter,"Ad was misleading, the discount didn’t apply.",5
+user_0023,2025-09-19 03:00:00,email_feedback,Customer service was rude and unhelpful.,
+user_0008,2025-07-06 16:00:00,email_feedback,"Still waiting for my refund, very frustrating.",5
+user_0405,2025-10-10 11:00:00,twitter,Socail media posts were engaging!,5
+user_0097,2025-10-28 15:00:00,app_review,"My issue was solved quickly, thank you.",3
+user_0388,2025-10-03 14:00:00,app_review,The loyalty program is confusing.,1
+user_0155,2025-06-28 04:00:00,app_review,Customer service was rude and unhelpful.,1
+user_0433,2025-05-25 01:00:00,app_review,The app keeps crashing when I try to pay. 😡,1
+user_0466,2025-06-28 00:00:00,twitter,Socail media posts were engaging!,1
+user_0009,2025-07-01 07:00:00,app_review,"Still waiting for my refund, very frustrating.",5
+user_0174,2025-09-21 17:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",2
+user_0021,2025-06-16 19:00:00,chatbot,"Email offers are great, I found a nice deal.",
+user_0459,2025-06-09 15:00:00,email_feedback,"Still waiting for my refund, very frustrating.",4
+user_0185,2025-10-22 23:00:00,chatbot,I love how fast the checkout process is!,5
+user_0451,2025-05-17 17:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",
+user_0421,2025-09-21 02:00:00,chatbot,Socail media posts were engaging!,3
+user_0142,2025-05-15 21:00:00,email_feedback,The loyalty program is confusing.,2
+user_0001,28/8/2025 9:0,email_feedback,"Ad was misleading, the discount didn’t apply.",4
+user_0170,2025-07-22 17:00:00,app_review,Socail media posts were engaging!,5
+user_0062,19/6/2025 3:0,email_feedback,I love how fast the checkout process is!,4
+user_0034,2025-07-19 22:00:00,app_review,Socail media posts were engaging!,2
+user_0141,2025-09-01 05:00:00,twitter,"Email offers are great, I found a nice deal.",5
+user_0384,2025-06-28 23:00:00,chatbot,"My issue was solved quickly, thank you.",
+user_0133,2025-08-10 09:00:00,email_feedback,The loyalty program is confusing.,
+user_0468,2025-05-05 12:00:00,twitter,"Email offers are great, I found a nice deal.",
+user_0260,2025-08-10 15:00:00,twitter,"My issue was solved quickly, thank you.",
+user_0132,2025-05-03 05:00:00,app_review,The app keeps crashing when I try to pay. 😡,1
+user_0081,2025-07-04 19:00:00,twitter,The loyalty program is confusing.,5
+user_0381,2025-06-27 03:00:00,chatbot,Customer service was rude and unhelpful.,1
+user_0483,2025-08-04 13:00:00,app_review,"Email offers are great, I found a nice deal.",2
+user_0041,2025-05-25 07:00:00,email_feedback,"Email offers are great, I found a nice deal.",
+user_0251,2025-10-21 20:00:00,chatbot,"Still waiting for my refund, very frustrating.",
+user_0345,2025-08-06 02:00:00,twitter,I love how fast the checkout process is!,4
+user_0166,2025-08-29 22:00:00,email_feedback,Socail media posts were engaging!,5
+user_0260,2025-10-21 08:00:00,email_feedback,Customer service was rude and unhelpful.,2
+user_0311,2025-07-31 21:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",3
+user_0277,2025-07-19 18:00:00,twitter,Customer service was rude and unhelpful.,
+user_0032,2025-08-25 00:00:00,twitter,"Ad was misleading, the discount didn’t apply.",5
+user_0292,2025-08-08 15:00:00,twitter,Customer service was rude and unhelpful.,
+user_0201,2025-10-19 07:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",3
+user_0159,2025-10-04 15:00:00,email_feedback,The loyalty program is confusing.,3
+user_0001,5/5/2025 3:0,twitter,Socail media posts were engaging!,
+user_0021,2025-08-11 14:00:00,app_review,"Still waiting for my refund, very frustrating.",1
+user_0368,2025-07-21 19:00:00,app_review,The app keeps crashing when I try to pay. 😡,1
+user_0283,2025-09-15 09:00:00,twitter,Customer service was rude and unhelpful.,4
+user_0302,2025-06-16 11:00:00,email_feedback,"My issue was solved quickly, thank you.",5
+user_0007,2025-09-22 04:00:00,chatbot,I love how fast the checkout process is!,3
+user_0361,2025-06-15 15:00:00,twitter,The loyalty program is confusing.,5
+user_0144,2025-06-25 13:00:00,twitter,The loyalty program is confusing.,2
+user_0432,2025-05-26 01:00:00,app_review,I love how fast the checkout process is!,2
+user_0026,2025-09-24 10:00:00,email_feedback,Socail media posts were engaging!,
+user_0204,2025-09-19 02:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",
+user_0382,2025-07-04 02:00:00,app_review,The app keeps crashing when I try to pay. 😡,2
+user_0217,2025-09-30 20:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0324,2025-05-06 11:00:00,app_review,"Still waiting for my refund, very frustrating.",
+user_0204,2025-05-24 03:00:00,app_review,I love how fast the checkout process is!,5
+user_0465,23/7/2025 16:0,email_feedback,"Ad was misleading, the discount didn’t apply.",1
+user_0052,2025-10-08 10:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",
+user_0226,2025-09-13 11:00:00,email_feedback,"My issue was solved quickly, thank you.",
+user_0353,2025-05-27 02:00:00,twitter,I love how fast the checkout process is!,
+user_0438,2025-10-05 08:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",3
+user_0289,2025-06-02 14:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",3
+user_0459,2025-10-27 16:00:00,app_review,The loyalty program is confusing.,
+user_0232,2025-09-21 06:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0460,2025-09-08 04:00:00,twitter,"Ad was misleading, the discount didn’t apply.",2
+user_0282,2025-05-23 06:00:00,app_review,I love how fast the checkout process is!,1
+user_0463,2025-05-10 09:00:00,app_review,I love how fast the checkout process is!,3
+user_0151,2025-06-26 11:00:00,chatbot,The app keeps crashing when I try to pay. 😡,2
+user_0428,2025-05-05 02:00:00,chatbot,Customer service was rude and unhelpful.,2
+user_0156,2025-07-26 07:00:00,email_feedback,Customer service was rude and unhelpful.,
+user_0481,2025-08-14 14:00:00,email_feedback,Customer service was rude and unhelpful.,5
+user_0385,2025-07-08 01:00:00,email_feedback,"My issue was solved quickly, thank you.",4
+user_0372,2025-09-16 22:00:00,app_review,"My issue was solved quickly, thank you.",
+user_0485,2025-10-17 04:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",
+user_0133,2025-05-10 12:00:00,twitter,"Email offers are great, I found a nice deal.",4
+user_0388,2025-05-23 07:00:00,chatbot,Customer service was rude and unhelpful.,4
+user_0077,2025-10-21 03:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,5
+user_0053,2025-05-07 08:00:00,email_feedback,"Email offers are great, I found a nice deal.",1
+user_0069,2025-08-21 18:00:00,app_review,"Still waiting for my refund, very frustrating.",2
+user_0044,2025-09-28 11:00:00,chatbot,I love how fast the checkout process is!,2
+user_0250,2025-09-15 03:00:00,app_review,The app keeps crashing when I try to pay. 😡,
+user_0255,2025-05-08 03:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0114,2025-09-01 20:00:00,twitter,Customer service was rude and unhelpful.,
+user_0032,2025-09-01 07:00:00,twitter,I love how fast the checkout process is!,2
+user_0241,2025-08-16 12:00:00,twitter,"My issue was solved quickly, thank you.",1
+user_0067,2025-07-01 17:00:00,email_feedback,Customer service was rude and unhelpful.,
+user_0445,2025-06-10 08:00:00,app_review,The app keeps crashing when I try to pay. 😡,5
+user_0161,2025-08-20 15:00:00,app_review,"Ad was misleading, the discount didn’t apply.",1
+user_0038,2025-09-10 07:00:00,chatbot,"My issue was solved quickly, thank you.",4
+user_0030,2025-08-19 17:00:00,twitter,"My issue was solved quickly, thank you.",
+user_0206,2025-06-02 20:00:00,email_feedback,"Still waiting for my refund, very frustrating.",5
+user_0330,2025-09-27 17:00:00,twitter,"Email offers are great, I found a nice deal.",2
+user_0299,2025-05-16 14:00:00,chatbot,Customer service was rude and unhelpful.,2
+user_0262,2025-05-10 20:00:00,email_feedback,Socail media posts were engaging!,5
+user_0086,2025-05-19 15:00:00,twitter,The loyalty program is confusing.,
+user_0435,2025-07-25 23:00:00,chatbot,"My issue was solved quickly, thank you.",1
+user_0473,2025-07-08 16:00:00,email_feedback,"My issue was solved quickly, thank you.",
+user_0450,2025-05-25 19:00:00,email_feedback,The loyalty program is confusing.,5
+user_0411,2025-09-18 15:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",
+user_0178,2025-06-18 11:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0332,2025-05-14 23:00:00,twitter,"Email offers are great, I found a nice deal.",1
+user_0108,2025-06-17 07:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,2
+user_0290,2025-06-27 06:00:00,app_review,"My issue was solved quickly, thank you.",
+user_0292,2025-09-21 03:00:00,email_feedback,"My issue was solved quickly, thank you.",3
+user_0038,2025-06-02 23:00:00,twitter,"Still waiting for my refund, very frustrating.",
+user_0100,2025-05-12 02:00:00,chatbot,Customer service was rude and unhelpful.,4
+user_0255,2025-08-22 10:00:00,app_review,Customer service was rude and unhelpful.,
+user_0451,2025-09-27 18:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0465,2025-05-26 19:00:00,chatbot,Socail media posts were engaging!,3
+user_0407,2025-07-07 10:00:00,chatbot,I love how fast the checkout process is!,4
+user_0474,25/6/2025 15:0,chatbot,"My issue was solved quickly, thank you.",1
+user_0209,2025-06-30 06:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",
+user_0096,2025-06-01 17:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0329,9/6/2025 11:0,email_feedback,The app keeps crashing when I try to pay. 😡,1
+user_0488,2025-06-04 18:00:00,app_review,Socail media posts were engaging!,
+user_0189,2025-06-16 00:00:00,twitter,"Email offers are great, I found a nice deal.",2
+user_0430,2025-09-23 13:00:00,app_review,I love how fast the checkout process is!,3
+user_0451,2025-10-09 20:00:00,chatbot,Customer service was rude and unhelpful.,5
+user_0481,2025-06-30 00:00:00,twitter,"Still waiting for my refund, very frustrating.",1
+user_0283,2025-08-01 04:00:00,twitter,"My issue was solved quickly, thank you.",
+user_0201,2025-08-18 17:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",3
+user_0211,2025-06-20 10:00:00,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0256,2025-07-19 00:00:00,twitter,"Still waiting for my refund, very frustrating.",5
+user_0493,25/5/2025 20:0,twitter,The app keeps crashing when I try to pay. 😡,3
+user_0185,2025-10-11 12:00:00,email_feedback,I love how fast the checkout process is!,
+user_0255,2025-07-29 22:00:00,app_review,I love how fast the checkout process is!,3
+user_0219,2025-06-27 17:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,2
+user_0271,2025-07-24 16:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0364,2025-08-28 20:00:00,chatbot,The app keeps crashing when I try to pay. 😡,
+user_0158,2025-10-19 16:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",2
+user_0431,2025-08-17 07:00:00,twitter,"Email offers are great, I found a nice deal.",5
+user_0049,2025-10-16 02:00:00,app_review,"Email offers are great, I found a nice deal.",3
+user_0227,2025-10-19 01:00:00,app_review,The loyalty program is confusing.,3
+user_0289,2025-05-16 11:00:00,app_review,Customer service was rude and unhelpful.,5
+user_0070,2025-05-23 03:00:00,email_feedback,I love how fast the checkout process is!,1
+user_0345,2025-10-09 08:00:00,email_feedback,Socail media posts were engaging!,4
+user_0052,2025-07-27 03:00:00,app_review,The app keeps crashing when I try to pay. 😡,1
+user_0402,2025-06-14 15:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",1
+user_0071,2025-06-14 04:00:00,twitter,I love how fast the checkout process is!,
+user_0163,2025-09-04 08:00:00,chatbot,I love how fast the checkout process is!,4
+user_0398,2025-10-27 21:00:00,chatbot,Customer service was rude and unhelpful.,1
+user_0158,2025-09-23 02:00:00,chatbot,Socail media posts were engaging!,5
+user_0475,2025-06-18 16:00:00,chatbot,"My issue was solved quickly, thank you.",1
+user_0433,2025-06-07 10:00:00,app_review,"Ad was misleading, the discount didn’t apply.",4
+user_0013,2025-10-14 01:00:00,email_feedback,Customer service was rude and unhelpful.,4
+user_0176,2025-10-04 07:00:00,email_feedback,Socail media posts were engaging!,
+user_0056,2025-05-24 00:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",
+user_0387,2025-07-01 15:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",3
+user_0065,27/7/2025 22:0,chatbot,I love how fast the checkout process is!,4
+user_0039,2025-07-06 12:00:00,twitter,Socail media posts were engaging!,3
+user_0369,2025-09-29 17:00:00,app_review,Customer service was rude and unhelpful.,4
+user_0055,2025-07-27 15:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",5
+user_0242,2025-10-18 18:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0476,8/5/2025 23:0,twitter,"Still waiting for my refund, very frustrating.",2
+user_0171,2025-08-13 18:00:00,chatbot,"Email offers are great, I found a nice deal.",2
+user_0458,16/10/2025 1:0,chatbot,Socail media posts were engaging!,1
+user_0363,2025-07-17 23:00:00,twitter,"Ad was misleading, the discount didn’t apply.",
+user_0424,2025-05-28 20:00:00,twitter,The app keeps crashing when I try to pay. 😡,1
+user_0046,2025-07-10 16:00:00,app_review,Customer service was rude and unhelpful.,1
+user_0171,2025-10-15 07:00:00,app_review,The loyalty program is confusing.,2
+user_0473,2025-08-20 06:00:00,twitter,Customer service was rude and unhelpful.,5
+user_0310,2025-10-04 11:00:00,email_feedback,Customer service was rude and unhelpful.,5
+user_0317,2025-08-23 14:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",1
+user_0495,2025-05-03 22:00:00,email_feedback,Socail media posts were engaging!,1
+user_0334,2025-09-06 21:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",
+user_0181,2025-05-02 07:00:00,twitter,Customer service was rude and unhelpful.,2
+user_0242,2025-05-13 19:00:00,app_review,"Ad was misleading, the discount didn’t apply.",4
+user_0408,23/8/2025 1:0,app_review,The app keeps crashing when I try to pay. 😡,2
+user_0474,18/9/2025 4:0,twitter,The app keeps crashing when I try to pay. 😡,3
+user_0057,2025-10-05 02:00:00,twitter,The app keeps crashing when I try to pay. 😡,2
+user_0378,2025-08-11 14:00:00,email_feedback,"Email offers are great, I found a nice deal.",5
+user_0262,2025-07-02 21:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",5
+user_0231,2025-07-13 00:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",4
+user_0246,2025-06-01 00:00:00,email_feedback,"Email offers are great, I found a nice deal.",2
+user_0378,2025-07-06 22:00:00,twitter,Customer service was rude and unhelpful.,5
+user_0008,2025-09-10 12:00:00,app_review,"Ad was misleading, the discount didn’t apply.",1
+user_0273,2025-07-27 03:00:00,app_review,"Email offers are great, I found a nice deal.",1
+user_0421,2025-08-20 05:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0077,2025-10-16 17:00:00,chatbot,"Email offers are great, I found a nice deal.",3
+user_0158,2025-09-01 14:00:00,app_review,"Email offers are great, I found a nice deal.",2
+user_0466,2025-09-20 15:00:00,app_review,"My issue was solved quickly, thank you.",2
+,2025-06-07 23:00:00,app_review,"Still waiting for my refund, very frustrating.",2
+user_0057,2025-10-28 10:00:00,twitter,I love how fast the checkout process is!,5
+user_0259,2025-09-28 14:00:00,email_feedback,I love how fast the checkout process is!,3
+user_0040,2025-09-05 06:00:00,chatbot,Socail media posts were engaging!,5
+user_0465,2025-05-06 18:00:00,twitter,"My issue was solved quickly, thank you.",2
+user_0322,2025-05-11 16:00:00,email_feedback,"Ad was misleading, the discount didn’t apply.",2
+user_0252,2025-09-11 01:00:00,email_feedback,The loyalty program is confusing.,1
+user_0168,2025-09-12 10:00:00,twitter,"Still waiting for my refund, very frustrating.",4
+user_0480,2025-05-04 16:00:00,email_feedback,I love how fast the checkout process is!,4
+user_0183,2025-09-23 08:00:00,email_feedback,I love how fast the checkout process is!,
+user_0447,2025-06-28 05:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",
+user_0454,2025-06-29 01:00:00,twitter,The app keeps crashing when I try to pay. 😡,5
+user_0066,2025-07-12 20:00:00,email_feedback,I love how fast the checkout process is!,1
+user_0102,2025-06-12 00:00:00,chatbot,I love how fast the checkout process is!,
+user_0281,2025-09-26 09:00:00,email_feedback,The loyalty program is confusing.,4
+user_0482,2025-10-03 08:00:00,email_feedback,The loyalty program is confusing.,
+user_0029,2025-08-26 23:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",5
+user_0320,2025-05-28 01:00:00,email_feedback,"Still waiting for my refund, very frustrating.",
+user_0355,2025-05-09 05:00:00,twitter,"Still waiting for my refund, very frustrating.",
+user_0045,2025-06-04 18:00:00,email_feedback,The loyalty program is confusing.,
+user_0275,2025-06-09 20:00:00,twitter,"Still waiting for my refund, very frustrating.",
+user_0144,2025-06-14 07:00:00,twitter,"Ad was misleading, the discount didn’t apply.",4
+user_0211,2025-08-01 06:00:00,chatbot,"Still waiting for my refund, very frustrating.",1
+user_0215,2025-05-19 18:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,1
+user_0378,2025-06-25 19:00:00,app_review,"My issue was solved quickly, thank you.",1
+user_0132,2025-09-14 17:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0407,2025-09-08 14:00:00,twitter,The app keeps crashing when I try to pay. 😡,
+user_0018,2025-10-23 07:00:00,email_feedback,The loyalty program is confusing.,3
+user_0274,2025-10-25 03:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,3
+user_0179,2025-07-27 04:00:00,twitter,"Still waiting for my refund, very frustrating.",1
+user_0026,2025-05-18 15:00:00,twitter,The app keeps crashing when I try to pay. 😡,1
+user_0070,2025-08-03 14:00:00,app_review,I love how fast the checkout process is!,3
+user_0183,2025-06-18 03:00:00,twitter,Socail media posts were engaging!,3
+user_0487,2025-06-18 00:00:00,chatbot,Socail media posts were engaging!,
+user_0487,2025-07-26 09:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",
+user_0459,2025-09-22 12:00:00,app_review,The app keeps crashing when I try to pay. 😡,2
+user_0231,21/10/2025 14:0,app_review,"My issue was solved quickly, thank you.",
+user_0362,2025-08-15 10:00:00,chatbot,"Email offers are great, I found a nice deal.",1
+user_0415,2025-07-28 00:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",1
+user_0132,2025-06-28 13:00:00,twitter,Customer service was rude and unhelpful.,4
+user_0320,2025-09-01 04:00:00,chatbot,The loyalty program is confusing.,3
+user_0230,2025-08-04 19:00:00,app_review,I love how fast the checkout process is!,4
+user_0414,2025-07-07 09:00:00,twitter,"Email offers are great, I found a nice deal.",3
+user_0033,2025-05-08 00:00:00,chatbot,Customer service was rude and unhelpful.,3
+user_0395,2/10/2025 21:0,chatbot,"Email offers are great, I found a nice deal.",3
+user_0262,2025-06-01 11:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",3
+user_0440,2025-07-07 11:00:00,email_feedback,The loyalty program is confusing.,2
+user_0178,2025-07-10 13:00:00,twitter,"Still waiting for my refund, very frustrating.",3
+user_0255,2025-08-19 23:00:00,email_feedback,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0317,2025-06-21 10:00:00,chatbot,The app keeps crashing when I try to pay. 😡,4
+user_0416,2025-10-04 21:00:00,email_feedback,I love how fast the checkout process is!,
+user_0203,2025-07-16 11:00:00,twitter,The app keeps crashing when I try to pay. 😡,
+user_0084,2025-06-18 02:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0373,2025-10-06 23:00:00,email_feedback,"Still waiting for my refund, very frustrating.",
+user_0317,2025-07-04 11:00:00,email_feedback,Socail media posts were engaging!,4
+user_0467,2025-05-16 04:00:00,app_review,"My issue was solved quickly, thank you.",5
+user_0102,2025-05-23 19:00:00,twitter,Customer service was rude and unhelpful.,
+user_0204,2025-09-21 15:00:00,app_review,The app keeps crashing when I try to pay. 😡,5
+user_0350,2025-10-01 02:00:00,chatbot,The app keeps crashing when I try to pay. 😡,5
+user_0479,2025-08-01 05:00:00,app_review,I love how fast the checkout process is!,
+user_0400,2025-05-05 23:00:00,twitter,Customer service was rude and unhelpful.,
+user_0327,2025-08-21 00:00:00,app_review,"Great UX overall, I’ll recommend to friends! 👍",5
+user_0327,2025-05-17 18:00:00,twitter,The app keeps crashing when I try to pay. 😡,5
+user_0328,2025-05-03 02:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",
+user_0307,2025-08-27 14:00:00,email_feedback,"Email offers are great, I found a nice deal.",3
+user_0187,29/5/2025 7:0,chatbot,"Email offers are great, I found a nice deal.",
+user_0160,2025-06-18 14:00:00,app_review,Customer service was rude and unhelpful.,3
+user_0029,2025-05-21 11:00:00,email_feedback,Customer service was rude and unhelpful.,5
+user_0353,2025-08-12 09:00:00,twitter,The loyalty program is confusing.,4
+user_0003,2025-10-15 23:00:00,email_feedback,Socail media posts were engaging!,2
+user_0118,2025-05-12 15:00:00,twitter,"My issue was solved quickly, thank you.",4
+user_0167,2025-06-22 22:00:00,twitter,"Email offers are great, I found a nice deal.",
+user_0238,2025-10-11 09:00:00,twitter,"Ad was misleading, the discount didn’t apply.",2
+user_0193,2025-06-12 09:00:00,twitter,"Ad was misleading, the discount didn’t apply.",3
+user_0460,8/10/2025 6:0,app_review,"Great UX overall, I’ll recommend to friends! 👍",
+user_0350,2025-09-13 07:00:00,chatbot,Socail media posts were engaging!,1
+user_0032,2025-09-04 00:00:00,email_feedback,"Email offers are great, I found a nice deal.",1
+user_0259,2025-05-22 11:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0034,2025-06-14 03:00:00,chatbot,"Ad was misleading, the discount didn’t apply.",4
+user_0074,2025-08-29 02:00:00,app_review,I love how fast the checkout process is!,5
+user_0487,2025-06-03 18:00:00,app_review,"Email offers are great, I found a nice deal.",3
+user_0316,25/9/2025 12:0,app_review,"Great UX overall, I’ll recommend to friends! 👍",4
+,2025-10-13 12:00:00,app_review,The loyalty program is confusing.,
+user_0474,2025-05-11 13:00:00,app_review,I love how fast the checkout process is!,4
+user_0126,2025-09-18 13:00:00,chatbot,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0198,2025-05-19 20:00:00,email_feedback,The app keeps crashing when I try to pay. 😡,3
+user_0000,2025-07-02 01:00:00,chatbot,Customer service was rude and unhelpful.,2
+user_0118,2025-07-27 22:00:00,chatbot,"Still waiting for my refund, very frustrating.",1
+user_0478,2025-09-08 20:00:00,twitter,"Email offers are great, I found a nice deal.",
+user_0493,2025-05-22 19:00:00,chatbot,Customer service was rude and unhelpful.,1
+user_0336,2025-07-16 04:00:00,app_review,"Ad was misleading, the discount didn’t apply.",
+user_0110,2025-05-06 21:00:00,chatbot,I love how fast the checkout process is!,1
+user_0475,2025-09-07 12:00:00,chatbot,I love how fast the checkout process is!,5
+user_0031,2025-07-13 09:00:00,app_review,"Ad was misleading, the discount didn’t apply.",3
+user_0216,2025-07-29 08:00:00,chatbot,I love how fast the checkout process is!,4
+user_0214,2025-07-02 06:00:00,chatbot,The loyalty program is confusing.,
+user_0131,2025-05-10 21:00:00,chatbot,Socail media posts were engaging!,5
+user_0268,2025-07-24 12:00:00,app_review,Customer service was rude and unhelpful.,1
+user_0241,2025-08-02 16:00:00,email_feedback,"Still waiting for my refund, very frustrating.",4
+user_0253,2025-06-17 02:00:00,chatbot,Customer service was rude and unhelpful.,2
+user_0137,2025-08-22 09:00:00,chatbot,I love how fast the checkout process is!,3
+user_0030,2025-08-16 01:00:00,app_review,"Ad was misleading, the discount didn’t apply.",
+user_0285,2025-08-15 12:00:00,chatbot,Socail media posts were engaging!,1
+user_0339,2025-08-11 22:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",4
+user_0097,2025-06-13 07:00:00,chatbot,The app keeps crashing when I try to pay. 😡,3
+user_0463,2025-05-14 19:00:00,email_feedback,"Email offers are great, I found a nice deal.",
+user_0009,2025-10-12 05:00:00,twitter,"Great UX overall, I’ll recommend to friends! 👍",1
+user_0198,2025-10-27 20:00:00,chatbot,The app keeps crashing when I try to pay. 😡,1
+user_0045,2025-09-30 12:00:00,app_review,The app keeps crashing when I try to pay. 😡,
+user_0426,2025-07-02 06:00:00,app_review,The app keeps crashing when I try to pay. 😡,4
+user_0305,23/10/2025 13:0,app_review,"Ad was misleading, the discount didn’t apply.",5
