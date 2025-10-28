@@ -163,7 +163,7 @@ def main():
                 capture_output=True,
                 text=True,
                 check=True,
-                timeout=5,
+                timeout=30,
                 encoding="utf-8",
                 errors="replace",
             )
@@ -174,7 +174,7 @@ def main():
                 capture_output=True,
                 text=True,
                 check=True,
-                timeout=5,
+                timeout=30,
                 encoding="utf-8",
                 errors="replace",
             )
