@@ -29,9 +29,15 @@ df = pd.read_csv(STRUCTURED_FILE, parse_dates=["timestamp"])
 logger.info(f"Loading logistic regression predictions from {PREDICTIONS_FILE}...")
 df_preds = pd.read_csv(PREDICTIONS_FILE)
 
-# Merge predicted probabilities
-df = df.merge(df_preds[["user_id", "y_pred"]], on="user_id", how="left")
-df["y_pred"] = df["y_pred"].fillna(0)  # Fill any missing predictions with 0
+# Merge predicted probabilities - only keep users with predictions (inner join)
+rows_before = len(df)
+df = df.merge(df_preds[["user_id", "y_pred"]], on="user_id", how="inner")
+rows_after = len(df)
+rows_dropped = rows_before - rows_after
+
+if rows_dropped > 0:
+    logger.warning(f"Dropped {rows_dropped:,} rows ({rows_dropped/rows_before:.1%}) due to missing predictions")
+logger.info(f"Attribution will be calculated for {df['user_id'].nunique():,} users with predictions")
 
 # Aggregate user paths
 df = df.sort_values(by=["user_id", "timestamp"])
