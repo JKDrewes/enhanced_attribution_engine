@@ -1,3 +1,8 @@
+"""Provides project directory paths and ensures necessary directories exist. 
+That way a developer can run any of the main project scripts 
+as entrypoints without needing to first run a separate setup step.
+This allows for modular testing from VSCode."""
+
 import sys
 import os
 from pathlib import Path

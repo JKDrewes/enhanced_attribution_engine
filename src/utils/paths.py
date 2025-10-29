@@ -1,5 +1,4 @@
 """
-paths.py
 Centralized project paths for datasets, processed data, outputs, and logs.
 """
 

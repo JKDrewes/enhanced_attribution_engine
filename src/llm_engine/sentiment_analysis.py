@@ -1,5 +1,4 @@
 """
-sentiment_analysis.py
 Generates sentiment scores for text data using Ollama CLI.
 """
 

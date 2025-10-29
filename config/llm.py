@@ -1,5 +1,4 @@
 """
-llm.py
 Centralized configuration for LLM interactions (Ollama model selection, CLI behavior,
 fallback preferences). Uses environment variables for runtime overrides.
 """
@@ -20,6 +19,7 @@ _DEFAULT_CONFIG = {
     # Which model to use for each feature type
     "models": {
         "default": "gemma3:4b",
+        "report_recommendation": "gemma3:4b",
         "sentiment": "gemma3:4b",
         "intent": "llama2:latest",
     },

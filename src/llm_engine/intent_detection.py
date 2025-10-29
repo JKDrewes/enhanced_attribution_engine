@@ -1,5 +1,4 @@
 """
-intent_detection.py
 Uses an open-source LLM (via Ollama CLI) to extract user intents or goals
 from reviews or textual interactions. Outputs structured intent features per user_id.
 

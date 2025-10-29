@@ -1,5 +1,4 @@
 """
-shapley_attribution_model.py
 Calculates Shapley-value based attribution for marketing channels using
 predicted conversion probabilities from logistic regression.
 """

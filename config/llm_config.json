@@ -1,6 +1,7 @@
 {
   "models": {
     "default": "gemma3:4b",
+    "report_recommendation": "gemma3:4b",
     "sentiment": "gemma3:4b",
     "intent": "llama2:latest"
   },

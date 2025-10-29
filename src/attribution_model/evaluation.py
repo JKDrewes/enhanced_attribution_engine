@@ -1,5 +1,4 @@
 """
-evaluation.py
 Evaluates Logistic Regression and Shapley attribution models.
 Provides model assumptions checks, metrics, and visualizations.
 """

@@ -1,5 +1,4 @@
 """
-classifier_model.py
 Trains a logistic regression model to predict conversion using merged structured
 and LLM-derived features.
 """

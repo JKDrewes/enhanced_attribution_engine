@@ -1,8 +1,10 @@
 """
-logger.py
 Provides a simple, project-wide logger. Tries to use loguru; falls back to
 the standard library `logging` if loguru cannot be imported (e.g., on
 restricted or unusual Windows environments).
+
+This project prefers loguru for its concise, higher-level API for sinks (add/remove), 
+built-in rotation/retention, pretty/structured formatting, and easy runtime reconfiguration.
 """
 
 from pathlib import Path

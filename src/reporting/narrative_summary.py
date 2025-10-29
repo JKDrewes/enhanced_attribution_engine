@@ -1,5 +1,4 @@
 """
-narrative_summary.py
 Generates a comprehensive narrative summary of model results including:
 - Logistic Regression model performance and assumptions
 - Shapley attribution analysis
@@ -23,6 +22,9 @@ import pandas as pd
 from src.utils.logger import logger
 import joblib
 from sklearn.metrics import accuracy_score, roc_auc_score
+import subprocess
+import shutil
+from config.llm import config as llm_config
 
 # --- Paths ---
 OUTPUT_DIR = bootstrap.OUTPUTS_DIR / "reporting"
@@ -35,7 +37,7 @@ SHAPLEY_FILE = bootstrap.OUTPUTS_DIR / "shapley_channel_attribution.csv"
 SENTIMENT_FILE = bootstrap.PROCESSED_DIR / "llm_sentiment_features.csv"
 INTENT_FILE = bootstrap.PROCESSED_DIR / "llm_intent_features.csv"
 
-# --- Load and analyze data ---
+# --- Load data ---
 def load_data():
     """Load all required data files"""
     logger.info("Loading model and predictions...")
@@ -100,6 +102,110 @@ def analyze_user_behavior(df_sentiment, df_intent):
         'top_intents': top_intents
     }
 
+
+def generate_recommendations(model_insights, attribution_insights, behavior_insights, visuals=None, model_override=None):
+    """Generate concise recommendations using the configured LLM (falls back to template).
+
+    Returns a markdown-formatted string containing recommendation sections.
+    """
+    # Prepare compact context
+    acc = model_insights.get('accuracy')
+    roc = model_insights.get('roc_auc')
+    preds = model_insights.get('predictions')
+
+    top_channels = attribution_insights.get('top_channels')
+    try:
+        top_channels_text = top_channels[['channel', 'attribution_percentage', 'total_touchpoints']].to_string(index=False)
+    except Exception:
+        top_channels_text = str(top_channels)
+
+    sentiment = behavior_insights.get('sentiment', {})
+    top_intents = behavior_insights.get('top_intents')
+    try:
+        top_intents_text = top_intents.to_string()
+    except Exception:
+        top_intents_text = str(top_intents)
+
+    visuals_text = ", ".join(visuals) if visuals else "none"
+
+    # Pre-format numeric context to avoid f-string complexity
+    acc_text = f"{acc:.2%}" if acc is not None else "N/A"
+    roc_text = f"{roc:.2f}" if roc is not None else "N/A"
+    preds_text = str(preds)
+    sent_mean = sentiment.get('mean')
+    sent_mean_text = f"{sent_mean:.2f}" if sent_mean is not None else "N/A"
+    sent_pos = sentiment.get('positive')
+    sent_pos_text = f"{sent_pos:.2%}" if sent_pos is not None else "N/A"
+    sent_neg = sentiment.get('negative')
+    sent_neg_text = f"{sent_neg:.2%}" if sent_neg is not None else "N/A"
+
+    prompt = f"""
+You are an expert marketing analyst. Given the analytics context below, produce concise, actionable recommendations in markdown under these headings: Channel Optimization, Content Strategy, Model Improvements, and Quick Experiments (1-2 items).
+
+Context:
+- Model accuracy: {acc_text}
+- ROC AUC: {roc_text}
+- Total predictions: {preds_text}
+
+Top channels (channel / attribution % / touchpoints):
+{top_channels_text}
+
+Sentiment summary: mean={sent_mean_text} positive={sent_pos_text} negative={sent_neg_text}
+
+Top intents:
+{top_intents_text}
+
+Visualizations available: {visuals_text}
+
+Keep recommendations short (2-4 bullets per section), practical, and prioritized. Respond with markdown only.
+"""
+
+    # Use configured model for report recommendations (allow override)
+    model_name = model_override or llm_config.get_model("report_recommendation")
+
+    # Fallback generator
+    def fallback():
+        lines = []
+        lines.append("1. Channel Optimization:")
+        if isinstance(top_channels, pd.DataFrame) and not top_channels.empty:
+            top = list(top_channels['channel'].head(3).astype(str))
+            lines.append(f"   - Prioritize channels: {', '.join(top)}; monitor lower-attribution high-touchpoint channels.")
+        else:
+            lines.append("   - Focus on channels with highest attribution and investigate low-attribution high-touchpoint channels.")
+
+        lines.append("")
+        lines.append("2. Content Strategy:")
+        if top_intents_text:
+            lines.append(f"   - Create content targeting top intents: {top_intents_text.splitlines()[0]}")
+        else:
+            lines.append("   - Align messaging to common user goals identified in intent analysis.")
+
+        lines.append("")
+        lines.append("3. Model Improvements:")
+        lines.append("   - Monitor model drift and collect additional features for underperforming segments.")
+        lines.append("")
+        lines.append("4. Quick Experiments:")
+        lines.append("   - Run A/B test on creative for top channel vs top intent audience.")
+        return "\n".join(lines)
+
+    # Try calling Ollama via configured CLI; fall back on template
+    try:
+        if not shutil.which("ollama"):
+            if llm_config.fail_fast():
+                raise RuntimeError("Ollama CLI not found and fail_fast=True")
+            logger.info("Ollama CLI not found — using fallback recommendations")
+            return fallback()
+
+        cmd = llm_config.build_cli_command(model_name, prompt)
+        res = subprocess.run(cmd, capture_output=True, text=True, check=True, timeout=30, encoding="utf-8", errors="replace")
+        out = res.stdout.strip()
+        if not out:
+            return fallback()
+        return out
+    except Exception as e:
+        logger.warning(f"LLM recommend generation failed: {e}")
+        return fallback()
+
 # Load and analyze all data
 model, df_preds, df_shapley, df_sentiment, df_intent = load_data()
 model_insights = analyze_model_performance(model, df_preds)
@@ -108,7 +214,23 @@ behavior_insights = analyze_user_behavior(df_sentiment, df_intent)
 
 def generate_markdown_report(model_insights, attribution_insights, behavior_insights):
     """Generate a comprehensive markdown report"""
-    
+    # Generate dynamic recommendations via LLM (if available)
+    try:
+        recommendations_text = generate_recommendations(model_insights, attribution_insights, behavior_insights)
+    except Exception as e:
+        logger.warning(f"LLM recommendations generation failed: {e}")
+        # Fallback recommendations if LLM generation fails
+        recommendations_text = """
+1. Channel Optimization:
+    - Focus on top performing channels while maintaining presence in others
+
+2. Content Strategy:
+    - Address common user intents in marketing materials
+
+3. Model Improvements:
+    - Continue monitoring model performance
+"""
+
     report = f"""# Marketing Attribution Analysis Report
 
 ## Model Performance Summary
@@ -142,17 +264,7 @@ The most common user intents identified:
 
 ## Recommendations
 
-1. Channel Optimization:
-   - Focus on top performing channels while maintaining presence in others
-   - Investigate high-touchpoint channels with lower attribution
-
-2. Content Strategy:
-   - Address common user intents in marketing materials
-   - Leverage positive sentiment patterns in messaging
-
-3. Model Improvements:
-   - Continue monitoring model performance
-   - Consider collecting additional features for key touchpoints
+{recommendations_text}
 
 ## Visualizations
 Please refer to the accompanying visualization report for detailed graphs and charts.

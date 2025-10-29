@@ -1,14 +1,4 @@
-"""
-main.py
-Orchestrates the backend workflow:
-1. Cleans previous outputs
-2. Pre-processes data
-3. LLM feature generation (sentiment + intent)
-4. Logistic regression model training
-5. Shapley attribution calculation
-6. Model evaluation
-7. Reporting (visualizations + narrative)
-"""
+"""Main script for the pipline"""
 
 # Ensure bootstrap is importable even when running from the script's folder
 import sys

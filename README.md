@@ -114,3 +114,29 @@ python -m pytest              # Run tests
 black src/                   # Format code
 flake8 src/                 # Check style
 ```
+
+## LLM configuration and model selection
+
+The project centralizes LLM settings in `config/llm.py` and `config/llm_config.json`. You can optionally select which model is used for different tasks (for example: `default`, `sentiment`, `intent`, and `report_recommendation`). By default the repo ships with `gemma3:4b` for general/report recommendations and sentiment, and `llama2:latest` for intent detection.
+
+How it works:
+- `config/llm.py` exposes a `config` object with `get_model(feature_type)` and `build_cli_command(model, prompt)` helpers. Code calls `config.get_model()` to select the model for a given task.
+- `config/llm_config.json` provides the canonical mapping of feature types to model names. The keys currently supported are: `default`, `report_recommendation`, `sentiment`, and `intent`.
+- Environment variables can override behavior at runtime (PowerShell examples below).
+
+Examples
+- Change the model used for report recommendations only (temporary for current shell):
+
+```powershell
+$env:LLM_MODEL = "gemma3:4b"            # sets default model
+$env:LLM_MODEL = "": ""               # unset if needed
+```
+
+- If you want to override a specific key without editing the JSON, you can call functions in code with `model_override` parameters where available. For example, `generate_recommendations(..., model_override="gemma3:4b")` will force that model for the recommendation prompt.
+
+Other environment variables:
+- `LLM_CLI_MODE` — force the CLI mode used for models (e.g., `run` or `generate`).
+- `FORCE_LLM_FALLBACK` — if set to true, the code will prefer local fallback scorers instead of requiring the Ollama CLI.
+- `LLM_FAIL_FAST` — if true, the pipeline will raise on LLM errors instead of falling back.
+
+If you prefer editing the repo-level defaults, modify `config/llm_config.json` to change the model names permanently for your environment.

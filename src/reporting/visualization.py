@@ -1,5 +1,4 @@
 """
-visualization.py
 Generates a comprehensive set of visualizations for the attribution analysis:
 1. Model Performance:
    - ROC and Precision-Recall curves
@@ -25,7 +24,6 @@ except Exception:
     if str(PROJECT_ROOT) not in sys.path:
         sys.path.insert(0, str(PROJECT_ROOT))
     import bootstrap
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -102,11 +100,8 @@ def plot_model_performance(model, df_preds, output_dir):
     plt.savefig(output_dir / 'model_performance.png', dpi=300, bbox_inches='tight')
     plt.close()
 
-# Load all data
-logger.info("Loading model and predictions...")
-model = joblib.load(MODEL_FILE)
-df_preds = pd.read_csv(PREDICTIONS_FILE)
 
+#Helper Functions
 def plot_attribution_analysis(df_shapley, output_dir):
     """Create attribution analysis visualizations"""
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 10))
@@ -185,6 +180,24 @@ def plot_user_behavior(df_sentiment, df_intent, df_shapley, output_dir):
     
     plt.tight_layout()
     plt.savefig(output_dir / 'user_behavior.png', dpi=300, bbox_inches='tight')
+    plt.close()
+
+    # 4. Sentiment distribution by channel (boxplot)
+    struct_file = bootstrap.PROCESSED_DIR / "structured_data_processed.csv"
+    df_struct = pd.read_csv(struct_file)
+    df_uc = df_struct[["user_id", "channel"]].merge(
+        df_sentiment[["user_id", "sentiment_score"]], on="user_id", how="left"
+    )
+    df_uc = df_uc.dropna(subset=["sentiment_score"])
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+    sns.boxplot(data=df_uc, x="channel", y="sentiment_score", ax=ax)
+    ax.set_title("Sentiment Distribution by Channel")
+    ax.set_xlabel("Channel")
+    ax.set_ylabel("Sentiment Score")
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
+    plt.tight_layout()
+    plt.savefig(output_dir / 'channel_sentiment_boxplot.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 # Load all data and generate visualizations

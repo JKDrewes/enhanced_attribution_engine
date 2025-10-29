@@ -1,5 +1,4 @@
 """
-generate_report.py
 Creates a comprehensive marketing attribution report by combining
 narrative summaries with visualizations into markdown, figures, and PDF formats.
 """
