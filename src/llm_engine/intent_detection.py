@@ -1,17 +1,12 @@
 """
-Uses an open-source LLM (via Ollama CLI) to extract user intents or goals
+Uses the designated LLM to extract user intents or goals
 from reviews or textual interactions. Outputs structured intent features per user_id.
-
-This implementation centers on the `extract_intent` function and uses the
-configured model (Gemma) via the project's LLM config. It preserves the
-existing pathing, logger and fallback behavior.
 """
 
 from pathlib import Path
 from typing import Optional
 import subprocess
 import shutil
-
 import pandas as pd
 from loguru import logger
 try:
@@ -29,7 +24,6 @@ except Exception:
         import bootstrap
     except Exception:
         pass
-
 from config.llm import config as llm_config
 from utils.paths import PROCESSED_DIR, PROCESSED_REVIEWS, PROCESSED_INTENT
 

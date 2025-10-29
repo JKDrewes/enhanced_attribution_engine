@@ -10,7 +10,7 @@ built-in rotation/retention, pretty/structured formatting, and easy runtime reco
 from pathlib import Path
 import logging
 
-# --- Paths ---
+# Paths
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True, parents=True)
 LOG_FILE = LOG_DIR / "project.log"

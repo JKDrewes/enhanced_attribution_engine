@@ -34,9 +34,7 @@ try:
 except Exception:
     Ollama = None  # type: ignore
 
-# No direct dependency on config.constants (model selection now via config.llm)
-
-
+#Helper Functions
 def _normalize_response(resp) -> str:
     """Convert various response types to a plain string."""
     if resp is None:

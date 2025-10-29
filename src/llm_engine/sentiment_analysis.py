@@ -29,9 +29,8 @@ PROCESSED_DIR.mkdir(exist_ok=True, parents=True)
 REVIEWS_FILE = PROCESSED_REVIEWS
 OUTPUT_FILE = PROCESSED_SENTIMENT
 
-# -------------------------------
-# Ollama CLI helper function
-# -------------------------------
+
+# Helper Functions
 def _fallback_sentiment(text: str) -> int:
     """Lightweight keyword-based fallback sentiment scorer.
 
@@ -104,9 +103,8 @@ Text: \"\"\"{text}\"\"\"
         else:
             return 0  # neutral when fallback disallowed
 
-# -------------------------------
+
 # Main function
-# -------------------------------
 def main():
     logger.info("Loading processed text data...")
     if not REVIEWS_FILE.exists():

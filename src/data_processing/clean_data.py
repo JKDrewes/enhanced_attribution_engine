@@ -23,7 +23,7 @@ from utils.logger import logger
 RAW_DIR = bootstrap.RAW_DIR
 PROCESSED_DIR = bootstrap.PROCESSED_DIR
 
-# --- Helper functions ---
+# Helper functions
 def clean_channel_name(channel):
     if pd.isna(channel):
         return None
@@ -100,7 +100,7 @@ def clean_channels(df):
     return df
 
 
-# --- Main processing ---
+# Main processing
 def preprocess_all():
     logger.info("Starting preprocessing of raw data...")
 

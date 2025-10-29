@@ -41,7 +41,7 @@ import joblib
 sns.set_style("whitegrid")
 sns.set_palette("husl")
 
-# --- Paths ---
+# Paths
 OUTPUT_DIR = bootstrap.OUTPUTS_DIR / "reporting" / "figures"
 OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 

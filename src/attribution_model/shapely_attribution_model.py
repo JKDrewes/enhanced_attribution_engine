@@ -15,30 +15,30 @@ if project_root not in sys.path:
 from src.utils.logger import logger
 import bootstrap
 
-# --- Paths ---
+# Paths
 PROCESSED_DIR = bootstrap.PROCESSED_DIR
 OUTPUT_DIR = bootstrap.OUTPUTS_DIR
 
 STRUCTURED_FILE = PROCESSED_DIR / "structured_data_processed.csv"
 PREDICTIONS_FILE = OUTPUT_DIR / "conversion_predictions.csv"
 
-# --- Load Data ---
+# Load Data
 logger.info(f"Loading structured data from {STRUCTURED_FILE}...")
 df = pd.read_csv(STRUCTURED_FILE, parse_dates=["timestamp"])
 
 logger.info(f"Loading logistic regression predictions from {PREDICTIONS_FILE}...")
 df_preds = pd.read_csv(PREDICTIONS_FILE)
 
-# --- Merge predicted probabilities ---
+# Merge predicted probabilities
 df = df.merge(df_preds[["user_id", "y_pred"]], on="user_id", how="left")
 df["y_pred"] = df["y_pred"].fillna(0)  # Fill any missing predictions with 0
 
-# --- Aggregate user paths ---
+# Aggregate user paths
 df = df.sort_values(by=["user_id", "timestamp"])
 user_paths = df.groupby("user_id")["channel"].apply(list)
 user_predictions = df.groupby("user_id")["y_pred"].max()  # use max predicted conversion probability per user
 
-# --- Shapley Attribution Function ---
+#  Shapley Attribution Function
 def shapley_attribution(paths, values):
     """
     Compute Shapley-style attribution per channel using predicted values.
@@ -74,13 +74,13 @@ def shapley_attribution(paths, values):
     
     return channel_values
 
-# --- Run Attribution ---
+# Run Attribution
 logger.info("Calculating Shapley-value attributions using predicted conversions...")
 paths_dict = user_paths.to_dict()
 values_dict = user_predictions.to_dict()
 shapley_values = shapley_attribution(paths_dict, values_dict)
 
-# --- Save Results ---
+# Save Results
 output_path = OUTPUT_DIR / "shapley_channel_attribution.csv"
 df_shapley = pd.DataFrame(list(shapley_values.items()), columns=["channel", "attribution_percentage"])
 df_shapley = df_shapley.sort_values("attribution_percentage", ascending=False)

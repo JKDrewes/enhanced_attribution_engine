@@ -26,7 +26,7 @@ import subprocess
 import shutil
 from config.llm import config as llm_config
 
-# --- Paths ---
+# Paths
 OUTPUT_DIR = bootstrap.OUTPUTS_DIR / "reporting"
 OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 OUTPUT_FILE = OUTPUT_DIR / "attribution_analysis_report.md"
@@ -37,7 +37,7 @@ SHAPLEY_FILE = bootstrap.OUTPUTS_DIR / "shapley_channel_attribution.csv"
 SENTIMENT_FILE = bootstrap.PROCESSED_DIR / "llm_sentiment_features.csv"
 INTENT_FILE = bootstrap.PROCESSED_DIR / "llm_intent_features.csv"
 
-# --- Load data ---
+# Load data
 def load_data():
     """Load all required data files"""
     logger.info("Loading model and predictions...")

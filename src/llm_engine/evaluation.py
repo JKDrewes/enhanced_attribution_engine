@@ -13,29 +13,27 @@ except Exception:
 	if str(PROJECT_ROOT) not in sys.path:
 		sys.path.insert(0, str(PROJECT_ROOT))
 	import bootstrap
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 from utils.logger import logger
 
-# --- Paths ---
+# Paths
 PROCESSED_DIR = Path("data/processed")
 OUTPUT_DIR = PROCESSED_DIR / "evaluation"
 OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
-
 SENTIMENT_FILE = PROCESSED_DIR / "llm_sentiment_features.csv"
 INTENT_FILE = PROCESSED_DIR / "llm_intent_features.csv"
 
-# --- Load LLM features ---
+# Load LLM features
 logger.info("Loading sentiment features...")
 df_sentiment = pd.read_csv(SENTIMENT_FILE)
 
 logger.info("Loading intent features...")
 df_intent = pd.read_csv(INTENT_FILE)
 
-# --- Sentiment evaluation ---
+# Sentiment evaluation
 logger.info("Evaluating sentiment feature coverage and distribution...")
 total_users = len(df_sentiment)
 missing_sentiment = df_sentiment["sentiment_score"].isna().sum()
@@ -56,7 +54,7 @@ plt.savefig(OUTPUT_DIR / "sentiment_distribution.png")
 plt.close()
 logger.info(f"Sentiment distribution plot saved to {OUTPUT_DIR / 'sentiment_distribution.png'}")
 
-# --- Intent evaluation ---
+# Intent evaluation
 logger.info("Evaluating intent features...")
 intent_cols = [col for col in df_intent.columns if col.startswith("intent_")]
 

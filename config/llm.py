@@ -10,7 +10,7 @@ import json
 
 from src.utils.logger import logger
 
-# --- LLM configuration constants ---
+# LLM configuration constants
 CONFIG_FILE = Path(__file__).parent / "llm_config.json"
 
 # Model settings (will be loaded from config JSON if it exists)
