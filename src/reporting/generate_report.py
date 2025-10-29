@@ -25,7 +25,7 @@ from src.reporting.narrative_summary import (
     analyze_model_performance,
     analyze_attribution,
     analyze_user_behavior,
-    generate_markdown_report
+    generate_markdown_report,
 )
 from src.reporting.visualization import (
     plot_model_performance,

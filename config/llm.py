@@ -8,8 +8,7 @@ from pathlib import Path
 from typing import Dict, Optional
 import json
 
-from utils.logger import logger
-from . import constants
+from src.utils.logger import logger
 
 # --- LLM configuration constants ---
 CONFIG_FILE = Path(__file__).parent / "llm_config.json"
@@ -118,3 +117,18 @@ config = LLMConfig()
 # Save defaults if no config exists (helps users discover options)
 if not CONFIG_FILE.exists():
     config.save()
+
+# Log configured models for visibility when this module is imported
+try:
+    # Use loguru-style formatting (positional braces) so both loguru and stdlib
+    # logger implementations format correctly.
+    logger.info(
+        "LLM models loaded: default={}, report_recommendation={}, sentiment={}, intent={}",
+        config.get_model(),
+        config.get_model("report_recommendation"),
+        config.get_model("sentiment"),
+        config.get_model("intent"),
+    )
+except Exception:
+    # Keep import-time side-effects minimal; do not raise on logging failures
+    pass

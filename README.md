@@ -5,8 +5,6 @@ The **Enhanced Attribution Engine** is a hybrid analytics system that combines d
 
 It extends traditional marketing attribution by incorporating qualitative, unstructured data—such as customer reviews, chat logs, or social media mentions—into the model to improve both accuracy and interpretability.
 
-This project **does not use an orchestration framework** (like Dagster or Airflow); instead, it relies on a modular Python pipeline with lightweight configuration and manual scheduling via cron or CLI.
-
 ---
 
 ## Quick Start
@@ -27,29 +25,6 @@ pip install -r requirements.txt
 python src/main.py
 ```
 
-## Project Structure
-
-```
-enhanced_attribution_engine/
-├── config/             # Configuration files
-├── data/               # Data files
-│   ├── raw/            # Original data
-│   ├── processed/      # Cleaned data
-│   └── outputs/        # Model outputs
-│       ├── reporting/
-│       │   ├── figures/      # Visualization outputs
-│       │   └── full_report/  # Final PDF reports
-│       └── evaluation/       # Model evaluation results
-├── logs/             # Log files
-├── src/              # Source code
-│   ├── attribution_model/
-│   ├── data_processing/
-│   ├── llm_engine/
-│   ├── reporting/
-│   └── utils/
-└── tests/            # Unit tests
-```
-
 ## Architecture Overview
 
 ### 1. Data Processing Layer
@@ -61,7 +36,7 @@ enhanced_attribution_engine/
 - Outputs structured features for model integration
 
 ### 3. Attribution Model
-- Implements a **gradient boosting model** for conversion prediction
+- Implements a **logistic regression model** for conversion prediction
 - Calculates **Shapley values** for attribution analysis
 
 ### 4. Integration & Analysis
@@ -73,12 +48,12 @@ enhanced_attribution_engine/
 - Creates comprehensive PDF reports with analysis and insights
 
 ## Pipeline Workflow
-1. Run data processing (`clean_data.py`)
+1. Run data processing
 2. Generate LLM features:
    - Sentiment analysis
    - Intent detection
    - Feature integration
-3. Train gradient boosting model
+3. Train logistic regression model on combined featureset
 4. Calculate Shapley attributions
 5. Generate evaluations and visualizations
 6. Create final report
@@ -110,14 +85,14 @@ python config/processing.py NONE  # Process full dataset
 
 ### Development Tools
 ```powershell
-python -m pytest              # Run tests
-black src/                   # Format code
+python -m pytest            # Run tests
+black src/                  # Format code
 flake8 src/                 # Check style
 ```
 
 ## LLM configuration and model selection
 
-The project centralizes LLM settings in `config/llm.py` and `config/llm_config.json`. You can optionally select which model is used for different tasks (for example: `default`, `sentiment`, `intent`, and `report_recommendation`). By default the repo ships with `gemma3:4b` for general/report recommendations and sentiment, and `llama2:latest` for intent detection.
+The project centralizes LLM settings in `config/llm.py` and `config/llm_config.json`. You can optionally select which model is used for different tasks. By default the repo ships with `gemma3:4b` for general/report recommendations and sentiment, and `llama2:latest` for intent detection.
 
 How it works:
 - `config/llm.py` exposes a `config` object with `get_model(feature_type)` and `build_cli_command(model, prompt)` helpers. Code calls `config.get_model()` to select the model for a given task.
@@ -129,7 +104,7 @@ Examples
 
 ```powershell
 $env:LLM_MODEL = "gemma3:4b"            # sets default model
-$env:LLM_MODEL = "": ""               # unset if needed
+$env:LLM_MODEL = "": ""                 # unset if needed
 ```
 
 - If you want to override a specific key without editing the JSON, you can call functions in code with `model_override` parameters where available. For example, `generate_recommendations(..., model_override="gemma3:4b")` will force that model for the recommendation prompt.

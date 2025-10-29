@@ -34,11 +34,7 @@ try:
 except Exception:
     Ollama = None  # type: ignore
 
-# Try to get active model from config.constants if available
-try:
-    from config.constants import active_model
-except Exception:
-    active_model = None
+# No direct dependency on config.constants (model selection now via config.llm)
 
 
 def _normalize_response(resp) -> str:
